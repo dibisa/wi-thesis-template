@@ -9,7 +9,7 @@
 
 % DEDICATION
 \begin{dedication}
-	\emph{Please insert your dedication here.}
+	\emph{I will insert my dedication here.}
 \end{dedication}
 
 %% BEGIN PAGESTYLE
@@ -72,14 +72,16 @@
 \listoffigures
 
 \clearpage
-% NOMENCLATURE
-% \begin{conventions}
-% % \begin{description}
-% % \item{\makebox[0.75in][l]{term}
-% %        \parbox[t]{5in}{definition\\}}
-% % \end{description}
-% \input{conventions}
-% \end{conventions}
+% LIST OF ACRONYMS
+\chapter*{List of Acronyms}
+\addcontentsline{toc}{chapter}{LIST OF ACRONYMS}
+\input{frontmatter/acronyms}
+
+\clearpage
+% LIST OF SYMBOLS / NOMENCLATURE
+\begin{listofsymbols}
+\input{frontmatter/nomenclature}
+\end{listofsymbols}
 
 %% The UW graduate school no longer wants a UMI abstract page
 %% Should you need one for some reason, uncomment the following

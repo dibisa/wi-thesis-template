@@ -49,6 +49,14 @@
 %\usepackage{theorem}
 \usepackage{hyperref}
 
+%% Acronyms support
+\usepackage{acronym}
+
+%% Chapter-based equation numbering (1.1, 1.2, 2.1, etc.)
+\numberwithin{equation}{chapter}
+\numberwithin{figure}{chapter}
+\numberwithin{table}{chapter}
+
 \IfFileExists{mathpartir.sty}{%
 \usepackage{mathpartir}%
 }{}
