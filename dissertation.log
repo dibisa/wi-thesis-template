@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.26)  26 JAN 2026 12:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.26)  26 JAN 2026 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -957,7 +957,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--47
 
 [1
 
-]
+] [2]
 \openout2 = `frontmatter/frontmatter.aux'.
 
  (frontmatter/frontmatter.tex [0
@@ -977,7 +977,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: LY1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [2
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 \end{acks}
+                [2
 
 {C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-texnansi-sc.enc}] (dissertation.toc [3
 
@@ -989,110 +994,220 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ] (frontmatter/acronyms.tex
 
-LaTeX Warning: Hyper reference `acro:FEM' on page vii undefined on input line 12.
+LaTeX Warning: Hyper reference `acro:NR' on page vii undefined on input line 13.
 
 
-LaTeX Warning: Hyper reference `acro:FEM' on page vii undefined on input line 12.
+LaTeX Warning: Hyper reference `acro:NR' on page vii undefined on input line 13.
 
 
-LaTeX Warning: Hyper reference `acro:FVM' on page vii undefined on input line 14.
+LaTeX Warning: Hyper reference `acro:TPU' on page vii undefined on input line 18.
 
 
-LaTeX Warning: Hyper reference `acro:FVM' on page vii undefined on input line 14.
+LaTeX Warning: Hyper reference `acro:TPU' on page vii undefined on input line 18.
 
 
-LaTeX Warning: Hyper reference `acro:CFD' on page vii undefined on input line 15.
+LaTeX Warning: Hyper reference `acro:PU' on page vii undefined on input line 19.
 
 
-LaTeX Warning: Hyper reference `acro:CFD' on page vii undefined on input line 15.
+LaTeX Warning: Hyper reference `acro:PU' on page vii undefined on input line 19.
 
 
-LaTeX Warning: Hyper reference `acro:DNS' on page vii undefined on input line 16.
+LaTeX Warning: Hyper reference `acro:EPDM' on page vii undefined on input line 20.
 
 
-LaTeX Warning: Hyper reference `acro:DNS' on page vii undefined on input line 16.
+LaTeX Warning: Hyper reference `acro:EPDM' on page vii undefined on input line 20.
 
 
-LaTeX Warning: Hyper reference `acro:LES' on page vii undefined on input line 17.
+LaTeX Warning: Hyper reference `acro:TSC' on page vii undefined on input line 29.
 
 
-LaTeX Warning: Hyper reference `acro:LES' on page vii undefined on input line 17.
+LaTeX Warning: Hyper reference `acro:TSC' on page vii undefined on input line 29.
 
 
-LaTeX Warning: Hyper reference `acro:RANS' on page vii undefined on input line 18.
+LaTeX Warning: Hyper reference `acro:SLA' on page vii undefined on input line 34.
 
 
-LaTeX Warning: Hyper reference `acro:RANS' on page vii undefined on input line 18.
+LaTeX Warning: Hyper reference `acro:SLA' on page vii undefined on input line 34.
 
-
-LaTeX Warning: Hyper reference `acro:EOS' on page vii undefined on input line 21.
-
-
-LaTeX Warning: Hyper reference `acro:EOS' on page vii undefined on input line 21.
-
-
-LaTeX Warning: Hyper reference `acro:LTE' on page vii undefined on input line 22.
-
-
-LaTeX Warning: Hyper reference `acro:LTE' on page vii undefined on input line 22.
-
-
-LaTeX Warning: Hyper reference `acro:HTC' on page vii undefined on input line 23.
-
-
-LaTeX Warning: Hyper reference `acro:HTC' on page vii undefined on input line 23.
-
-
-LaTeX Warning: Hyper reference `acro:RVE' on page vii undefined on input line 26.
-
-
-LaTeX Warning: Hyper reference `acro:RVE' on page vii undefined on input line 26.
-
-
-LaTeX Warning: Hyper reference `acro:PDE' on page vii undefined on input line 27.
-
-
-LaTeX Warning: Hyper reference `acro:PDE' on page vii undefined on input line 27.
-
-
-LaTeX Warning: Hyper reference `acro:ODE' on page vii undefined on input line 28.
-
-
-LaTeX Warning: Hyper reference `acro:ODE' on page vii undefined on input line 28.
-
-
-LaTeX Warning: Hyper reference `acro:BVP' on page vii undefined on input line 29.
-
-
-LaTeX Warning: Hyper reference `acro:BVP' on page vii undefined on input line 29.
-
-
-LaTeX Warning: Hyper reference `acro:IVP' on page vii undefined on input line 30.
-
-
-LaTeX Warning: Hyper reference `acro:IVP' on page vii undefined on input line 30.
-
-
-LaTeX Warning: Hyper reference `acro:SMA' on page vii undefined on input line 33.
-
-
-LaTeX Warning: Hyper reference `acro:SMA' on page vii undefined on input line 33.
-
-
-LaTeX Warning: Hyper reference `acro:FRP' on page vii undefined on input line 34.
-
-
-LaTeX Warning: Hyper reference `acro:FRP' on page vii undefined on input line 34.
-
-) [7
+[7
 
 
 ]
-pdfTeX warning (ext4): destination with the same identifier (name{page.vii}) has been already used, duplicate ignored
+
+LaTeX Warning: Hyper reference `acro:FFF' on page viii undefined on input line 37.
+
+
+LaTeX Warning: Hyper reference `acro:FFF' on page viii undefined on input line 37.
+
+
+LaTeX Warning: Hyper reference `acro:DIW' on page viii undefined on input line 38.
+
+
+LaTeX Warning: Hyper reference `acro:DIW' on page viii undefined on input line 38.
+
+
+LaTeX Warning: Hyper reference `acro:PRE' on page viii undefined on input line 46.
+
+
+LaTeX Warning: Hyper reference `acro:PRE' on page viii undefined on input line 46.
+
+
+LaTeX Warning: Hyper reference `acro:DEPR' on page viii undefined on input line 47.
+
+
+LaTeX Warning: Hyper reference `acro:DEPR' on page viii undefined on input line 47.
+
+
+LaTeX Warning: Hyper reference `acro:JMRE' on page viii undefined on input line 48.
+
+
+LaTeX Warning: Hyper reference `acro:JMRE' on page viii undefined on input line 48.
+
+
+LaTeX Warning: Hyper reference `acro:HLB' on page viii undefined on input line 49.
+
+
+LaTeX Warning: Hyper reference `acro:HLB' on page viii undefined on input line 49.
+
+
+LaTeX Warning: Hyper reference `acro:HIPE' on page viii undefined on input line 50.
+
+
+LaTeX Warning: Hyper reference `acro:HIPE' on page viii undefined on input line 50.
+
+
+LaTeX Warning: Hyper reference `acro:NMR' on page viii undefined on input line 53.
+
+
+LaTeX Warning: Hyper reference `acro:NMR' on page viii undefined on input line 53.
+
+
+LaTeX Warning: Hyper reference `acro:HSQC' on page viii undefined on input line 55.
+
+
+LaTeX Warning: Hyper reference `acro:HSQC' on page viii undefined on input line 55.
+
+
+LaTeX Warning: Hyper reference `acro:HMBC' on page viii undefined on input line 56.
+
+
+LaTeX Warning: Hyper reference `acro:HMBC' on page viii undefined on input line 56.
+
+
+LaTeX Warning: Hyper reference `acro:COSY' on page viii undefined on input line 57.
+
+
+LaTeX Warning: Hyper reference `acro:COSY' on page viii undefined on input line 57.
+
+
+LaTeX Warning: Hyper reference `acro:CPMG' on page viii undefined on input line 58.
+
+
+LaTeX Warning: Hyper reference `acro:CPMG' on page viii undefined on input line 58.
+
+
+LaTeX Warning: Hyper reference `acro:FTIR' on page viii undefined on input line 59.
+
+
+LaTeX Warning: Hyper reference `acro:FTIR' on page viii undefined on input line 59.
+
+
+LaTeX Warning: Hyper reference `acro:GPC' on page viii undefined on input line 60.
+
+
+LaTeX Warning: Hyper reference `acro:GPC' on page viii undefined on input line 60.
+
+[8]
+
+LaTeX Warning: Hyper reference `acro:SEM' on page ix undefined on input line 61.
+
+
+LaTeX Warning: Hyper reference `acro:SEM' on page ix undefined on input line 61.
+
+
+LaTeX Warning: Hyper reference `acro:TEM' on page ix undefined on input line 62.
+
+
+LaTeX Warning: Hyper reference `acro:TEM' on page ix undefined on input line 62.
+
+
+LaTeX Warning: Hyper reference `acro:ASTM' on page ix undefined on input line 65.
+
+
+LaTeX Warning: Hyper reference `acro:ASTM' on page ix undefined on input line 65.
+
+
+LaTeX Warning: Hyper reference `acro:ISO' on page ix undefined on input line 66.
+
+
+LaTeX Warning: Hyper reference `acro:ISO' on page ix undefined on input line 66.
+
+
+LaTeX Warning: Hyper reference `acro:OSHA' on page ix undefined on input line 67.
+
+
+LaTeX Warning: Hyper reference `acro:OSHA' on page ix undefined on input line 67.
+
+
+LaTeX Warning: Hyper reference `acro:DOE' on page ix undefined on input line 70.
+
+
+LaTeX Warning: Hyper reference `acro:DOE' on page ix undefined on input line 70.
+
+
+LaTeX Warning: Hyper reference `acro:CFD' on page ix undefined on input line 71.
+
+
+LaTeX Warning: Hyper reference `acro:CFD' on page ix undefined on input line 71.
+
+
+LaTeX Warning: Hyper reference `acro:LVR' on page ix undefined on input line 72.
+
+
+LaTeX Warning: Hyper reference `acro:LVR' on page ix undefined on input line 72.
+
+
+LaTeX Warning: Hyper reference `acro:UV' on page ix undefined on input line 73.
+
+
+LaTeX Warning: Hyper reference `acro:UV' on page ix undefined on input line 73.
+
+
+LaTeX Warning: Hyper reference `acro:O/W' on page ix undefined on input line 74.
+
+
+LaTeX Warning: Hyper reference `acro:O/W' on page ix undefined on input line 74.
+
+
+LaTeX Warning: Hyper reference `acro:W/O' on page ix undefined on input line 75.
+
+
+LaTeX Warning: Hyper reference `acro:W/O' on page ix undefined on input line 75.
+
+
+LaTeX Warning: Hyper reference `acro:THF' on page ix undefined on input line 76.
+
+
+LaTeX Warning: Hyper reference `acro:THF' on page ix undefined on input line 76.
+
+
+LaTeX Warning: Hyper reference `acro:TMS' on page ix undefined on input line 77.
+
+
+LaTeX Warning: Hyper reference `acro:TMS' on page ix undefined on input line 77.
+
+
+LaTeX Warning: Hyper reference `acro:CoA' on page ix undefined on input line 78.
+
+
+LaTeX Warning: Hyper reference `acro:CoA' on page ix undefined on input line 78.
+
+) [9]
+pdfTeX warning (ext4): destination with the same identifier (name{page.ix}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.82 \begin{listofsymbols}
-                           [7
+                           [9
 
 ] (frontmatter/nomenclature.tex
 LaTeX Font Info:    Trying to load font information for U+zeur on input line 6.
@@ -1115,41 +1230,38 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (C:\Users\dibis\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Overfull \hbox (71.38753pt too wide) in paragraph at lines 6--36
-[] 
- []
-
-[8
-
-]
-Overfull \hbox (93.76752pt too wide) in paragraph at lines 40--98
+Overfull \hbox (28.39955pt too wide) in paragraph at lines 6--34
 [] 
  []
 
 
-Overfull \vbox (437.40636pt too high) has occurred while \output is active []
+Overfull \hbox (56.00356pt too wide) in paragraph at lines 38--71
+[] 
+ []
 
- [9]
-Overfull \hbox (25.10507pt too wide) in paragraph at lines 102--118
+[10
+
+] [11]
+Overfull \hbox (33.76758pt too wide) in paragraph at lines 75--91
 [] 
  []
 
 
-Overfull \hbox (44.693pt too wide) in paragraph at lines 122--147
+Overfull \hbox (25.10507pt too wide) in paragraph at lines 95--108
 [] 
  []
 
-[10])
-Overfull \hbox (25.10507pt too wide) in paragraph at lines 151--84
+)
+Overfull \hbox (48.89958pt too wide) in paragraph at lines 112--84
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--84
+Underfull \hbox (badness 10000) in paragraph at lines 112--84
 
  []
 
-[11] [12] (frontmatter/abstract.tex) [13
+[12] [13] (frontmatter/abstract.tex) [14
 
 ])
 \openout2 = `chapters/chapter1.aux'.
@@ -1158,20 +1270,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--84
 Chapter 1.
 Package acronym Info: Label `acro:PLA' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
-
-Package acronym Warning: Acronym PLA is not defined on input line 13.
-
-
-Package acronym Warning: Acronym PLA is not defined on input line 13.
-
 Package acronym Info: Label `acro:PHA' newly defined as it shall be overridden
 although it is yet undefined on input line 13.
-
-Package acronym Warning: Acronym PHA is not defined on input line 13.
-
-
-Package acronym Warning: Acronym PHA is not defined on input line 13.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -1184,10 +1284,6 @@ l.16
 
 
 ]
-
-Package acronym Warning: Acronym PLA is not defined on input line 17.
-
-
 Overfull \hbox (9.87106pt too wide) in paragraph at lines 23--24
 \LY1/qpl/m/n/12 (-20) materials-flow strat-egy rather than a syn-onym for ``bio-based'' or ``biodegrad-
  []
@@ -1200,85 +1296,29 @@ Overfull \hbox (16.77649pt too wide) in paragraph at lines 23--24
 [2]
 Package acronym Info: Label `acro:NRL' newly defined as it shall be overridden
 although it is yet undefined on input line 27.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 27.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 27.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 27.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 27.
-
-[3] [4]
-
-Package acronym Warning: Acronym NRL is not defined on input line 43.
-
+ [3] [4]
 Package acronym Info: Label `acro:SIC' newly defined as it shall be overridden
 although it is yet undefined on input line 45.
-
-Package acronym Warning: Acronym SIC is not defined on input line 45.
-
-
-Package acronym Warning: Acronym SIC is not defined on input line 45.
-
+ [5]
 Package acronym Info: Label `acro:AM' newly defined as it shall be overridden
 although it is yet undefined on input line 47.
-
-Package acronym Warning: Acronym AM is not defined on input line 47.
-
-
-Package acronym Warning: Acronym AM is not defined on input line 47.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 47.
-
-[5]
-
-Package acronym Warning: Acronym NRL is not defined on input line 60.
-
-[6]
-
-Package acronym Warning: Acronym NRL is not defined on input line 76.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 76.
-
-[7]
-
-Package acronym Warning: Acronym NRL is not defined on input line 86.
-
-[8] [9]
-
-Package acronym Warning: Acronym NRL is not defined on input line 119.
-
-) [10]
+ [6] [7] [8] [9]) [10]
 \openout2 = `chapters/chapter2.aux'.
 
  (chapters/chapter2.tex
 Chapter 2.
 Package acronym Info: Label `acro:TPE' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
-
-Package acronym Warning: Acronym TPE is not defined on input line 16.
-
-
-Package acronym Warning: Acronym TPE is not defined on input line 16.
-
 Package acronym Info: Label `acro:SBR' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
 
-Package acronym Warning: Acronym SBR is not defined on input line 16.
-
-
-Package acronym Warning: Acronym SBR is not defined on input line 16.
-
-
 Overfull \hbox (2.0257pt too wide) in paragraph at lines 16--17
 \LY1/qpl/m/n/12 (-20) chem-i-cally cross-linked (ther-moset elas-tomers) and phys-i-cally cross-linked
+ []
+
+
+Overfull \hbox (5.7432pt too wide) in paragraph at lines 16--17
+\LY1/qpl/m/n/12 (-20) tough-ness, and strain stress source flex-i-bil-ity, demon-strat-ing hyper-elasticity
  []
 
 [11
@@ -1286,24 +1326,10 @@ Overfull \hbox (2.0257pt too wide) in paragraph at lines 16--17
 
 
 
-]
-
-Package acronym Warning: Acronym NRL is not defined on input line 31.
-
-[12]
-
-Package acronym Warning: Acronym NRL is not defined on input line 33.
-
-
+] [12]
 Overfull \hbox (5.7124pt too wide) in paragraph at lines 33--34
 \LY1/qpl/m/n/12 (-20) rophos-phate (DMAPP) through ei-ther the meval-onate (MVA) or methylery-
  []
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 35.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 35.
 
 [13]
 Overfull \hbox (0.10266pt too wide) in paragraph at lines 47--48
@@ -1314,115 +1340,38 @@ Overfull \hbox (0.10266pt too wide) in paragraph at lines 47--48
 Package acronym Info: Label `acro:DLVO' newly defined as it shall be overridden
 although it is yet undefined on input line 59.
 
-
-Package acronym Warning: Acronym DLVO is not defined on input line 59.
-
-
-Package acronym Warning: Acronym DLVO is not defined on input line 59.
-
-
 Overfull \hbox (10.14404pt too wide) in paragraph at lines 59--60
 \LY1/qpl/m/n/12 (-20) whether they re-main dis-persed, weakly floc-cu-late, or ir-re-versibly aggregate---
  []
 
 
-Package acronym Warning: Acronym DLVO is not defined on input line 67.
+Overfull \hbox (4.66092pt too wide) in paragraph at lines 59--60
+\LY1/qpl/m/n/12 (-20) is gov-erned by their in-ter-par-ti-cle po-ten-tials. The [][][]Derjaguin-Landau-Verwey-
+ []
 
 [15]
 Package acronym Info: Label `acro:SDS' newly defined as it shall be overridden
 although it is yet undefined on input line 76.
-
-
-Package acronym Warning: Acronym SDS is not defined on input line 76.
-
-
-Package acronym Warning: Acronym SDS is not defined on input line 76.
-
-
-Package acronym Warning: Acronym DLVO is not defined on input line 76.
-
-[16]
+ [16]
 Overfull \hbox (31.11043pt too wide) in paragraph at lines 100--101
 []\LY1/qpl/m/n/12 (-20) network-like con-straints in-ferred from solid-state or post-coagulation
  []
 
-[17]
-
-Package acronym Warning: Acronym SIC is not defined on input line 103.
-
-[18] [19] [20]
-
-Package acronym Warning: Acronym AM is not defined on input line 185.
-
-
-Package acronym Warning: Acronym AM is not defined on input line 185.
-
-
-Package acronym Warning: Acronym AM is not defined on input line 185.
-
-
-Package acronym Warning: Acronym AM is not defined on input line 187.
-
+[17] [18] [19] [20]
 Package acronym Info: Label `acro:LOM' newly defined as it shall be overridden
 although it is yet undefined on input line 187.
-
-Package acronym Warning: Acronym LOM is not defined on input line 187.
-
-
-Package acronym Warning: Acronym LOM is not defined on input line 187.
-
 Package acronym Info: Label `acro:SLS' newly defined as it shall be overridden
 although it is yet undefined on input line 187.
-
-Package acronym Warning: Acronym SLS is not defined on input line 187.
-
-
-Package acronym Warning: Acronym SLS is not defined on input line 187.
-
 Package acronym Info: Label `acro:FDM' newly defined as it shall be overridden
 although it is yet undefined on input line 187.
-
-Package acronym Warning: Acronym AM is not defined on input line 189.
-
 Package acronym Info: Label `acro:VPP' newly defined as it shall be overridden
 although it is yet undefined on input line 189.
-
-Package acronym Warning: Acronym VPP is not defined on input line 189.
-
-
-Package acronym Warning: Acronym VPP is not defined on input line 189.
-
-
-Package acronym Warning: Acronym AM is not defined on input line 189.
-
-
-Package acronym Warning: Acronym VPP is not defined on input line 189.
-
-
-Package acronym Warning: Acronym VPP is not defined on input line 195.
-
 Package acronym Info: Label `acro:DLP' newly defined as it shall be overridden
 although it is yet undefined on input line 195.
-
-Package acronym Warning: Acronym DLP is not defined on input line 195.
-
-
-Package acronym Warning: Acronym DLP is not defined on input line 195.
-
-[21]
-
-Package acronym Warning: Acronym VPP is not defined on input line 197.
-
-
+ [21]
 Overfull \hbox (2.57503pt too wide) in paragraph at lines 200--201
 []\LY1/qpl/b/n/12 (-20) Reactive dilu-ent monomers\LY1/qpl/m/n/12 (-20) : Re-duce vis-cos-ity while co-polymerizing
  []
-
-
-Package acronym Warning: Acronym VPP is not defined on input line 210.
-
-
-Package acronym Warning: Acronym VPP is not defined on input line 210.
 
 
 Overfull \hbox (1.82495pt too wide) in paragraph at lines 212--213
@@ -1430,10 +1379,6 @@ Overfull \hbox (1.82495pt too wide) in paragraph at lines 212--213
  []
 
 [22] [23]
-
-Package acronym Warning: Acronym NRL is not defined on input line 232.
-
-
 Overfull \hbox (7.084pt too wide) in paragraph at lines 232--233
 \LY1/qpl/m/n/12 (-20) mer (the oil phase) are dis-persed in a con-tin-u-ous water-based medium.
  []
@@ -1443,69 +1388,26 @@ Overfull \hbox (7.084pt too wide) in paragraph at lines 232--233
 
  (chapters/chapter3.tex
 Chapter 3.
-
-Package acronym Warning: Acronym NRL is not defined on input line 15.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 15.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 15.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 21.
-
 Package acronym Info: Label `acro:DRC' newly defined as it shall be overridden
 although it is yet undefined on input line 21.
-
-Package acronym Warning: Acronym DRC is not defined on input line 21.
-
-
-Package acronym Warning: Acronym DRC is not defined on input line 21.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 21.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 27.
-
 [26
 
 
 
 
-]
-
-Package acronym Warning: Acronym DRC is not defined on input line 33.
-
-
-Package acronym Warning: Acronym DRC is not defined on input line 51.
-
-[27]
-
-Package acronym Warning: Acronym DRC is not defined on input line 55.
-
-
-Package acronym Warning: Acronym DRC is not defined on input line 65.
-
-
-Package acronym Warning: Acronym DRC is not defined on input line 65.
+] [27]
+Overfull \hbox (5.48288pt too wide) in paragraph at lines 65--66
+\LY1/qpl/m/n/12 (-20) to-tal solids, co-ag-u-lated with 2 wt% acetic acid un-der stir-ring, washed/rolled,
+ []
 
 Package acronym Info: Label `acro:DLS' newly defined as it shall be overridden
 although it is yet undefined on input line 67.
-
-Package acronym Warning: Acronym DLS is not defined on input line 67.
-
-
-Package acronym Warning: Acronym DLS is not defined on input line 67.
-
 Package acronym Info: Label `acro:PDI' newly defined as it shall be overridden
 although it is yet undefined on input line 67.
 
-Package acronym Warning: Acronym PDI is not defined on input line 67.
-
-
-Package acronym Warning: Acronym PDI is not defined on input line 67.
+Overfull \hbox (21.77147pt too wide) in paragraph at lines 67--68
+[]\LY1/qpl/m/n/12 (-20) Particle-level sta-bil-ity was checked by [][][]Dynamic Light Scat-ter-ing ([])[]/zeta
+ []
 
 
 Overfull \hbox (5.13492pt too wide) in paragraph at lines 76--77
@@ -1516,118 +1418,28 @@ Overfull \hbox (5.13492pt too wide) in paragraph at lines 76--77
 Package acronym Info: Label `acro:TMPTA' newly defined as it shall be overridden
 although it is yet undefined on input line 83.
 
-
-Package acronym Warning: Acronym TMPTA is not defined on input line 83.
-
-
-Package acronym Warning: Acronym TMPTA is not defined on input line 83.
-
-
-Overfull \hbox (3.34631pt too wide) in paragraph at lines 83--84
-[]\LY1/qpl/m/n/12 (-20) Trimethylolpropane tri-acry-late ([][][]\LY1/qpl/b/n/12 (-20) TMPTA! \LY1/qpl/m/n/12 (-20) ([])[], tech-ni-cal grade,
+Overfull \hbox (29.52013pt too wide) in paragraph at lines 83--84
+[]\LY1/qpl/m/n/12 (-20) Trimethylolpropane tri-acry-late ([][][]Trimethylolpropane Tri-acry-late ([])[],
  []
 
 Package acronym Info: Label `acro:TPO' newly defined as it shall be overridden
 although it is yet undefined on input line 84.
 
-Package acronym Warning: Acronym TPO is not defined on input line 84.
-
-
-Package acronym Warning: Acronym TPO is not defined on input line 84.
+Overfull \hbox (1.63583pt too wide) in paragraph at lines 84--85
+[]\LY1/qpl/m/n/12 (-20) Phenylbis(2,4,6-trimethylbenzoyl)-phosphine ox-ide ([][][]Phenylbis(2,4,6-
+ []
 
 Package acronym Info: Label `acro:HDDA' newly defined as it shall be overridden
 although it is yet undefined on input line 97.
-
-Package acronym Warning: Acronym HDDA is not defined on input line 97.
-
-
-Package acronym Warning: Acronym HDDA is not defined on input line 97.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 103.
-
 [29] [30]
 Overfull \hbox (24.17848pt too wide) in paragraph at lines 129--130
 \LY1/qpl/m/n/12 (-20) To in-ter-pret viscosity--shear rate data across vol-ume frac-tion $\U/zeur/m/n/12 ^^^$\LY1/qpl/m/n/12 (-20) , a microstructure-
  []
 
-[31] [32]
-
-Package acronym Warning: Acronym NRL is not defined on input line 186.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 194.
-
-[33]
+[31] [32] [33]
 Package acronym Info: Label `acro:DOSY' newly defined as it shall be overridden
 although it is yet undefined on input line 217.
-
-
-Package acronym Warning: Acronym DOSY is not defined on input line 217.
-
-
-Package acronym Warning: Acronym DOSY is not defined on input line 217.
-
-[34]
-
-Package acronym Warning: Acronym NRL is not defined on input line 261.
-
-
-Package acronym Warning: Acronym SDS is not defined on input line 267.
-
-
-Package acronym Warning: Acronym DRC is not defined on input line 267.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 267.
-
-
-Package acronym Warning: Acronym HDDA is not defined on input line 267.
-
-
-Package acronym Warning: Acronym TPO is not defined on input line 267.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 267.
-
-[35]
-
-Package acronym Warning: Acronym HDDA is not defined on input line 275.
-
-
-Package acronym Warning: Acronym TMPTA is not defined on input line 275.
-
-
-Package acronym Warning: Acronym TPO is not defined on input line 275.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 287.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 287.
-
-
-Package acronym Warning: Acronym HDDA is not defined on input line 287.
-
-
-Package acronym Warning: Acronym TMPTA is not defined on input line 287.
-
-[36]
-
-Package acronym Warning: Acronym DLS is not defined on input line 296.
-
-
-Package acronym Warning: Acronym NRL is not defined on input line 298.
-
-[37] [38] [39]
-
-Package acronym Warning: Acronym DLP is not defined on input line 366.
-
-[40]
-
-Package acronym Warning: Acronym PDI is not defined on input line 386.
-
-) [41]
+ [34] [35] [36] [37] [38] [39] [40]) [41]
 pdfTeX warning (ext4): destination with the same identifier (name{page.41}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1657,21 +1469,24 @@ L3 programming layer <2020/03/25>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 08885EC63CF7BAD3248BE1D2D8E5472A;5876.
  ) 
 Here is how much of TeX's memory you used:
- 20258 strings out of 467871
- 317800 string characters out of 5418376
- 790425 words of memory out of 5000000
- 48343 multiletter control sequences out of 15000+600000
- 682098 words of font info for 200 fonts, out of 8000000 for 9000
+ 20301 strings out of 467871
+ 317727 string characters out of 5418376
+ 786333 words of memory out of 5000000
+ 48375 multiletter control sequences out of 15000+600000
+ 677000 words of font info for 184 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,12n,93p,1360b,643s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on dissertation.pdf (60 pages, 480493 bytes).
+ 85i,12n,93p,1360b,676s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb>
+Output written on dissertation.pdf (62 pages, 499144 bytes).
 PDF statistics:
- 705 PDF objects out of 1000 (max. 8388607)
- 243 named destinations out of 1000 (max. 500000)
- 31473 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 874 PDF objects out of 1000 (max. 8388607)
+ 282 named destinations out of 1000 (max. 500000)
+ 27377 words of extra memory for PDF output out of 29859 (max. 10000000)
 

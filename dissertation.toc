@@ -2,11 +2,11 @@
 \contentsline {chapter}{List of Tables}{v}{chapter*.8}%
 \contentsline {chapter}{List of Figures}{vi}{chapter*.11}%
 \contentsline {chapter}{LIST OF ACRONYMS}{vii}{chapter*.15}%
-\contentsline {chapter}{LIST OF SYMBOLS}{viii}{chapter*.17}%
-\contentsline {chapter}{Abstract}{xiii}{chapter*.24}%
+\contentsline {chapter}{LIST OF SYMBOLS}{x}{chapter*.17}%
+\contentsline {chapter}{Abstract}{xiv}{chapter*.24}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Biopolymers and Sustainable Materials}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Developing Circular Economies}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Developing Circular Economies}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Meeting Global Demand and Feedstock Diversification}{4}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Emerging Technological Interest}{5}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Problem Statement and Research Motivation}{6}{section.1.5}%
