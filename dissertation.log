@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.26)  27 JAN 2026 21:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.26)  28 JAN 2026 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,32 +820,7 @@ File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 
 Writing index file dissertation.idx 
 \c@thm=\count375
-) (includes/defs.tex
-
-includes/defs.tex:1: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 /
-     / ...existing code...
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-includes/defs.tex:8: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 /
-     / ...existing code...% defs.tex -- wbepi environment for chapter epigra...
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\dibis\AppData\Local\Programs\MiKTeX\tex/latex/svn-multi\svn-multi.sty
+) (includes/defs.tex (C:\Users\dibis\AppData\Local\Programs\MiKTeX\tex/latex/svn-multi\svn-multi.sty
 Package: svn-multi 2011/08/30 v2.4d SVN Keywords for multi-file LaTeX documents
 )) (includes/thesisdefs.tex
 \c@tocpage=\count376
@@ -855,17 +830,10 @@ Package: svn-multi 2011/08/30 v2.4d SVN Keywords for multi-file LaTeX documents
 \@testday=\count380
 \c@theorem=\count381
 )
-LaTeX Font Info:    Trying to load font information for LY1+qpl on input line 27.
+LaTeX Font Info:    Trying to load font information for LY1+qpl on input line 35.
  (C:\Users\dibis\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ly1qpl.fd
 File: ly1qpl.fd 2009/09/25 v1.2 font definition file for LY1/qpl
-)
-
-LaTeX Font Warning: Font shape `LY1/qpl/m/sl' in size <12> not available
-(Font)              Font shape `LY1/qpl/m/it' tried instead on input line 27.
-
-[1{C:/Users/dibis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-texnansi.enc}
-
-{C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-texnansi.enc}] (dissertation.aux (frontmatter/frontmatter.aux) (chapters/chapter1.aux) (chapters/chapter2.aux))
+) (dissertation.aux (frontmatter/frontmatter.aux) (chapters/chapter1.aux) (chapters/chapter2.aux) (chapters/chapter3.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -924,9 +892,7 @@ Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (C:\Users\dibis\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
-pdfTeX warning (font expansion): font should be expanded before its first use
-(C:\Users\dibis\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+) (C:\Users\dibis\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count383
 \scratchdimen=\dimen270
@@ -957,13 +923,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--47
 
 [1
 
-]
+
+{C:/Users/dibis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-texnansi.enc}]
 \openout2 = `frontmatter/frontmatter.aux'.
 
  (frontmatter/frontmatter.tex [0
 
 
 ]
+
+LaTeX Font Warning: Font shape `LY1/qpl/m/sl' in size <12> not available
+(Font)              Font shape `LY1/qpl/m/it' tried instead on input line 13.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -979,7 +951,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 ) [2
 
-{C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-texnansi-sc.enc}] (dissertation.toc [3
+{C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-texnansi-sc.enc}{C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-texnansi.enc}] (dissertation.toc [3
 
 ]) [4] (dissertation.lot) [5
 
@@ -989,28 +961,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ] (frontmatter/acronyms.tex
 
-LaTeX Warning: Hyper reference `acro:PLA' on page vii undefined on input line 14.
+LaTeX Warning: Hyper reference `acro:NR' on page vii undefined on input line 13.
 
 
-LaTeX Warning: Hyper reference `acro:PLA' on page vii undefined on input line 14.
-
-
-LaTeX Warning: Hyper reference `acro:PHA' on page vii undefined on input line 15.
-
-
-LaTeX Warning: Hyper reference `acro:PHA' on page vii undefined on input line 15.
-
-
-LaTeX Warning: Hyper reference `acro:SBR' on page vii undefined on input line 16.
-
-
-LaTeX Warning: Hyper reference `acro:SBR' on page vii undefined on input line 16.
-
-
-LaTeX Warning: Hyper reference `acro:TPE' on page vii undefined on input line 17.
-
-
-LaTeX Warning: Hyper reference `acro:TPE' on page vii undefined on input line 17.
+LaTeX Warning: Hyper reference `acro:NR' on page vii undefined on input line 13.
 
 
 LaTeX Warning: Hyper reference `acro:TPU' on page vii undefined on input line 18.
@@ -1031,70 +985,16 @@ LaTeX Warning: Hyper reference `acro:EPDM' on page vii undefined on input line 2
 LaTeX Warning: Hyper reference `acro:EPDM' on page vii undefined on input line 20.
 
 
-LaTeX Warning: Hyper reference `acro:SIC' on page vii undefined on input line 21.
-
-
-LaTeX Warning: Hyper reference `acro:SIC' on page vii undefined on input line 21.
-
-
-LaTeX Warning: Hyper reference `acro:DLVO' on page vii undefined on input line 24.
-
-
-LaTeX Warning: Hyper reference `acro:DLVO' on page vii undefined on input line 24.
-
-
-LaTeX Warning: Hyper reference `acro:SDS' on page vii undefined on input line 25.
-
-
-LaTeX Warning: Hyper reference `acro:SDS' on page vii undefined on input line 25.
-
-
-LaTeX Warning: Hyper reference `acro:PDI' on page vii undefined on input line 27.
-
-
-LaTeX Warning: Hyper reference `acro:PDI' on page vii undefined on input line 27.
-
-
-LaTeX Warning: Hyper reference `acro:DRC' on page vii undefined on input line 28.
-
-
-LaTeX Warning: Hyper reference `acro:DRC' on page vii undefined on input line 28.
-
-
 LaTeX Warning: Hyper reference `acro:TSC' on page vii undefined on input line 29.
 
 
 LaTeX Warning: Hyper reference `acro:TSC' on page vii undefined on input line 29.
 
 
-LaTeX Warning: Hyper reference `acro:AM' on page vii undefined on input line 32.
-
-
-LaTeX Warning: Hyper reference `acro:AM' on page vii undefined on input line 32.
-
-
-LaTeX Warning: Hyper reference `acro:VPP' on page vii undefined on input line 33.
-
-
-LaTeX Warning: Hyper reference `acro:VPP' on page vii undefined on input line 33.
-
-
 LaTeX Warning: Hyper reference `acro:SLA' on page vii undefined on input line 34.
 
 
 LaTeX Warning: Hyper reference `acro:SLA' on page vii undefined on input line 34.
-
-
-LaTeX Warning: Hyper reference `acro:DLP' on page vii undefined on input line 35.
-
-
-LaTeX Warning: Hyper reference `acro:DLP' on page vii undefined on input line 35.
-
-
-LaTeX Warning: Hyper reference `acro:FDM' on page vii undefined on input line 36.
-
-
-LaTeX Warning: Hyper reference `acro:FDM' on page vii undefined on input line 36.
 
 [7
 
@@ -1113,36 +1013,6 @@ LaTeX Warning: Hyper reference `acro:DIW' on page viii undefined on input line 3
 LaTeX Warning: Hyper reference `acro:DIW' on page viii undefined on input line 38.
 
 
-LaTeX Warning: Hyper reference `acro:SLS' on page viii undefined on input line 39.
-
-
-LaTeX Warning: Hyper reference `acro:SLS' on page viii undefined on input line 39.
-
-
-LaTeX Warning: Hyper reference `acro:LOM' on page viii undefined on input line 40.
-
-
-LaTeX Warning: Hyper reference `acro:LOM' on page viii undefined on input line 40.
-
-
-LaTeX Warning: Hyper reference `acro:HDDA' on page viii undefined on input line 43.
-
-
-LaTeX Warning: Hyper reference `acro:HDDA' on page viii undefined on input line 43.
-
-
-LaTeX Warning: Hyper reference `acro:TMPTA' on page viii undefined on input line 44.
-
-
-LaTeX Warning: Hyper reference `acro:TMPTA' on page viii undefined on input line 44.
-
-
-LaTeX Warning: Hyper reference `acro:TPO' on page viii undefined on input line 45.
-
-
-LaTeX Warning: Hyper reference `acro:TPO' on page viii undefined on input line 45.
-
-
 LaTeX Warning: Hyper reference `acro:PRE' on page viii undefined on input line 46.
 
 
@@ -1173,12 +1043,6 @@ LaTeX Warning: Hyper reference `acro:HIPE' on page viii undefined on input line 
 LaTeX Warning: Hyper reference `acro:HIPE' on page viii undefined on input line 50.
 
 
-LaTeX Warning: Hyper reference `acro:DOSY' on page viii undefined on input line 54.
-
-
-LaTeX Warning: Hyper reference `acro:DOSY' on page viii undefined on input line 54.
-
-
 LaTeX Warning: Hyper reference `acro:HSQC' on page viii undefined on input line 55.
 
 
@@ -1201,12 +1065,6 @@ LaTeX Warning: Hyper reference `acro:CPMG' on page viii undefined on input line 
 
 
 LaTeX Warning: Hyper reference `acro:CPMG' on page viii undefined on input line 58.
-
-
-LaTeX Warning: Hyper reference `acro:FTIR' on page viii undefined on input line 59.
-
-
-LaTeX Warning: Hyper reference `acro:FTIR' on page viii undefined on input line 59.
 
 
 LaTeX Warning: Hyper reference `acro:GPC' on page viii undefined on input line 60.
@@ -1365,533 +1223,214 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--84
 
  (chapters/chapter1.tex
 Chapter 1.
-)
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.55 \include{chapters/chapter1}
-                                 [1
+Package acronym Info: Label `acro:PLA' newly defined as it shall be overridden
+although it is yet undefined on input line 25.
+Package acronym Info: Label `acro:PHA' newly defined as it shall be overridden
+although it is yet undefined on input line 26.
+[1
 
 
 
 
 
 ]
+Overfull \hbox (9.87106pt too wide) in paragraph at lines 61--65
+\LY1/qpl/m/n/12 (-20) materials-flow strat-egy rather than a syn-onym for ``bio-based'' or ``biodegrad-
+ []
+
+
+Overfull \hbox (8.85649pt too wide) in paragraph at lines 61--65
+\LY1/qpl/m/n/12 (-20) able'' la-bel-ing. This dis-tinc-tion es-tab-lishes a di-alec-tic be-tween the noumenon,
+ []
+
+[2]
+Package acronym Info: Label `acro:NRL' newly defined as it shall be overridden
+although it is yet undefined on input line 74.
+ [3] [4]
+Package acronym Info: Label `acro:SIC' newly defined as it shall be overridden
+although it is yet undefined on input line 124.
+ [5]
+Package acronym Info: Label `acro:AM' newly defined as it shall be overridden
+although it is yet undefined on input line 126.
+ [6] [7] [8] [9]) [10]
 \openout2 = `chapters/chapter2.aux'.
 
  (chapters/chapter2.tex
 Chapter 2.
+Package acronym Info: Label `acro:TPE' newly defined as it shall be overridden
+although it is yet undefined on input line 26.
+Package acronym Info: Label `acro:SBR' newly defined as it shall be overridden
+although it is yet undefined on input line 28.
 
-LaTeX Warning: File `media/image1.png' not found on input line 15.
-
-
-chapters/chapter2.tex:15: Package pdftex.def Error: File `media/image1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 ...with medium confidence}]{media/image1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (86.88394pt too wide) in paragraph at lines 15--16
- [][] 
- []
-
-
-Overfull \hbox (2.0257pt too wide) in paragraph at lines 19--20
+Overfull \hbox (2.0257pt too wide) in paragraph at lines 26--29
 \LY1/qpl/m/n/12 (-20) chem-i-cally cross-linked (ther-moset elas-tomers) and phys-i-cally cross-linked
  []
 
 
-Overfull \hbox (5.7432pt too wide) in paragraph at lines 19--20
+Overfull \hbox (5.7432pt too wide) in paragraph at lines 26--29
 \LY1/qpl/m/n/12 (-20) tough-ness, and strain stress source flex-i-bil-ity, demon-strat-ing hyper-elasticity
  []
 
-[2
+[11
 
 
 
 
-] [3]
-
-chapters/chapter2.tex:26: LaTeX Error: Environment longtable undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 \begin{longtable}
-                      []{@{}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-chapters/chapter2.tex:27: Undefined control sequence.
-l.27 ...slash}p{(\linewidth - 2\tabcolsep) * \real
-                                                  {0.8947}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-chapters/chapter2.tex:28: Undefined control sequence.
-l.28 ...slash}p{(\linewidth - 2\tabcolsep) * \real
-                                                  {0.1053}}@{}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-chapters/chapter2.tex:29: Misplaced \noalign.
-\toprule ->\noalign 
-                    {\ifnum 0=`}\fi \@aboverulesep =\abovetopsep \global \@b...
-l.29 \toprule
-             \noalign{}
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-chapters/chapter2.tex:29: Misplaced \noalign.
-<recently read> \noalign 
-                         
-l.29 \toprule\noalign
-                     {}
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-chapters/chapter2.tex:34: Misplaced \noalign.
-\midrule ->\noalign 
-                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.34 \midrule
-             \noalign{}
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 30--34
-[][]
+] [12]
+Overfull \hbox (5.7124pt too wide) in paragraph at lines 50--54
+\LY1/qpl/m/n/12 (-20) rophos-phate (DMAPP) through ei-ther the meval-onate (MVA) or methylery-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--34
-
- []
-
-chapters/chapter2.tex:34: Misplaced \noalign.
-<recently read> \noalign 
-                         
-l.34 \midrule\noalign
-                     {}
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-chapters/chapter2.tex:35: Undefined control sequence.
-l.35 \endhead
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-chapters/chapter2.tex:36: Misplaced \noalign.
-\bottomrule ->\noalign 
-                       {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
-l.36 \bottomrule
-                \noalign{}
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-chapters/chapter2.tex:36: Misplaced \noalign.
-<recently read> \noalign 
-                         
-l.36 \bottomrule\noalign
-                        {}
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-chapters/chapter2.tex:37: Undefined control sequence.
-l.37 \endlastfoot
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-chapters/chapter2.tex:38: LaTeX Error: \begin{document} ended by \end{longtable}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 \end{longtable}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-chapters/chapter2.tex:41: LaTeX Error: Unicode character Δ (U+0394)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 where T is temperature, Δ
-                               S is entropy, and ΔF (force) is proportional...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-chapters/chapter2.tex:41: LaTeX Error: Unicode character Δ (U+0394)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ...e T is temperature, ΔS is entropy, and Δ
-                                                  F (force) is proportional ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-Package acronym Info: Label `acro:NRL' newly defined as it shall be overridden
-although it is yet undefined on input line 45.
-[4]
-Package acronym Info: Label `acro:NR' newly defined as it shall be overridden
-although it is yet undefined on input line 47.
-
-
-chapters/chapter2.tex:47: LaTeX Error: Unicode character ω (U+03C9)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ...wever, trace~trans-units persist at the ω
-                                                  -terminus due to the initi...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-chapters/chapter2.tex:47: LaTeX Error: Unicode character μ (U+03BC)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ... particles (RPs) ranging from 0.08 to 2 μ
-                                                  m in diameter {[}2{]}. Alt...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-chapters/chapter2.tex:47: LaTeX Error: Unicode character μ (U+03BC)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ...roduce RPs with uniform size ($\sim$0.5 μ
-                                                  m){[}4{]}. Russian dandeli...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-chapters/chapter2.tex:47: LaTeX Error: Unicode character μ (U+03BC)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ...ksaghyz) yields smaller RPs ($\sim$0.35 μ
-                                                  m) with a unimodal distrib...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-chapters/chapter2.tex:47: LaTeX Error: Unicode character μ (U+03BC)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ...elastica) generate larger RPs (1.6--6.0 μ
-                                                  m) but with comparable pol...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-chapters/chapter2.tex:49: LaTeX Error: Unicode character ₂ (U+2082)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 ...ng for 1.2\% of global anthropogenic CO₂
-                                                   emissions (approximately ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-chapters/chapter2.tex:49: LaTeX Error: Unicode character ₂ (U+2082)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 ...emissions (approximately 1.8 tons of CO₂
-                                                   per ton of ammonia) {[}8{]}.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[5]
-Overfull \hbox (14.1974pt too wide) in paragraph at lines 55--56
-\LY1/qpl/m/n/12 (-20) tinct be-hav-ior as ``more struc-tured'' com-pared to a sim-ple cis-1,4-polyisoprene
- []
-
-[6]
-Package acronym Info: Label `acro:NMR' newly defined as it shall be overridden
-although it is yet undefined on input line 57.
-
-chapters/chapter2.tex:59: Undefined control sequence.
-l.59 ... motifs, acting as a branching or gel ``\1
-                                                  '' This hypothesis entails...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[7]
-chapters/chapter2.tex:63: Undefined control sequence.
-l.63 ...t the presence of a particle ``corona,``\1
-                                                  ''network``\1''chemical re...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-chapters/chapter2.tex:63: Undefined control sequence.
-l.63 ...e of a particle ``corona,``\1''network``\1
-                                                  ''chemical reactivity``\1'...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-chapters/chapter2.tex:63: Undefined control sequence.
-l.63 ...``\1''network``\1''chemical reactivity``\1
-                                                  ''stability" is determined...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[8]
-
-chapters/chapter2.tex:67: LaTeX Error: Unicode character   (U+2009)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 ...reshold is \(U_{\max} \gtrsim 10\text{ }
-                                                  k_{B}T\) for practical sta...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Overfull \hbox (163.79796pt too wide) in paragraph at lines 71--72
-\LY1/qpl/m/n/12 (-20) gadro's num-ber. An in-crease in ionic strength$ \U/zeur/m/n/12 I correlates with a larger ^^T and consequently a shorter \U/zeus/m/n/12 ^^@
- []
-
-
-chapters/chapter2.tex:75: LaTeX Error: Unicode character   (U+2009)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 ...64\pi a\text{ }n_{\infty}k_{B}T}{\kappa}
-                                                  \text{\:\,}{\tanh}^{2}(\fr...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[9]
-
-chapters/chapter2.tex:79: LaTeX Error: Unicode character   (U+2009)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 ...rox \text{\:\,} - \frac{A\text{ }a}{12h}
-                                                  .\]
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[10]
-Overfull \hbox (3.73318pt too wide) in paragraph at lines 93--94
-[]\LY1/qpl/m/n/12 (-20) Surfactants sta-bi-lize col-loids by con-trol-ling what hap-pens at the particle--
- []
-
-[11] [12] [13]
-Overfull \hbox (20.53487pt too wide) in paragraph at lines 101--102
-[]\LY1/qpl/m/n/12 (-20) Even with-out at-trac-tions, in-creas-ing par-ti-cle vol-ume frac-tion $\U/zeur/m/n/12 ^^^ $\LY1/qpl/m/n/12 (-20) dramatically
+[13]
+Overfull \hbox (0.10266pt too wide) in paragraph at lines 74--75
+[]\LY1/qpl/b/n/12 (-20) HTT (sym-triazine deriva-tive) \LY1/qpl/m/n/12 (-20) ef-fec-tively pre-serves la-tex for months
  []
 
 [14]
+Package acronym Info: Label `acro:FTIR' newly defined as it shall be overridden
+although it is yet undefined on input line 94.
+Package acronym Info: Label `acro:NMR' newly defined as it shall be overridden
+although it is yet undefined on input line 94.
+ [15] [16] [17] [18] [19] [20]
+Package acronym Info: Label `acro:DLVO' newly defined as it shall be overridden
+although it is yet undefined on input line 196.
+ [21] [22] [23]
+Package acronym Info: Label `acro:SDS' newly defined as it shall be overridden
+although it is yet undefined on input line 244.
+ [24] [25] [26] [27]
+Package acronym Info: Label `acro:LOM' newly defined as it shall be overridden
+although it is yet undefined on input line 333.
+Package acronym Info: Label `acro:SLS' newly defined as it shall be overridden
+although it is yet undefined on input line 333.
+Package acronym Info: Label `acro:FDM' newly defined as it shall be overridden
+although it is yet undefined on input line 333.
+Package acronym Info: Label `acro:VPP' newly defined as it shall be overridden
+although it is yet undefined on input line 335.
+ [28]
+Package acronym Info: Label `acro:DLP' newly defined as it shall be overridden
+although it is yet undefined on input line 341.
 
-chapters/chapter2.tex:112: LaTeX Error: Unicode character   (U+2009)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 ...lbrack\eta\rbrack\phi = 1 + 2.5\text{ }
-                                                  \phi.\]
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-Package acronym Info: Label `acro:DLS' newly defined as it shall be overridden
-although it is yet undefined on input line 114.
-
-chapters/chapter2.tex:118: LaTeX Error: Unicode character   (U+2009)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.118 \[\eta_{r} = 1 + 2.5\text{ }
-                                    \phi + k_{2}\phi^{2} + \cdots\]
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[15] [16] [17]
-
-chapters/chapter2.tex:144: LaTeX Error: Unicode character   (U+2009)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 ... = \tau_{y} + K{\dot{\gamma}}^{\text{ }
-                                                  n}(0 < n < 1\text{ for she...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-chapters/chapter2.tex:150: LaTeX Error: Unicode character   (U+2009)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150 \[\eta = K{\dot{\gamma}}^{\text{ }
-                                          n - 1},\]
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[18]
-Overfull \hbox (15.0567pt too wide) in paragraph at lines 160--161
-[]\LY1/qpl/m/n/12 (-20) These are not just curve-fits; they have in-ter-pretable pa-ram-e-ters. $\U/zeur/m/n/12 ^^Q[]$\LY1/qpl/m/n/12 (-20) reflects
+Overfull \hbox (2.57503pt too wide) in paragraph at lines 346--347
+[]\LY1/qpl/b/n/12 (-20) Reactive dilu-ent monomers\LY1/qpl/m/n/12 (-20) : Re-duce vis-cos-ity while co-polymerizing
  []
 
-)
-c:/Users/dibis/OneDrive/Desktop/Thesis/LaTex/wi-thesis-template/dissertation.tex:56: Incomplete \iffalse; all text was ignored after line 163.
-<inserted text> 
-                \fi 
-l.56 \include{chapters/chapter2}
-                                
-The file ended while I was skipping conditional text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
+[29] [30] [31]
+Overfull \hbox (28.70213pt too wide) in paragraph at lines 372--373
+\LY1/qpl/m/n/12 (-20) duced through groups such as (meth)acryloyl, thiol--ene pairs, or epoxy/oxetane
+ []
 
-c:/Users/dibis/OneDrive/Desktop/Thesis/LaTex/wi-thesis-template/dissertation.tex:56: Missing \endcsname inserted.
+
+Overfull \hbox (8.32404pt too wide) in paragraph at lines 372--373
+\LY1/qpl/m/n/12 (-20) ene step-growth path-ways, or cationic poly-mer-iza-tion, re-spec-tively. Cationic
+ []
+
+[32] [33] [34] [35]) [36]
+\openout2 = `chapters/chapter3.aux'.
+
+ (chapters/chapter3.tex
+Chapter 3.
+Package acronym Info: Label `acro:DRC' newly defined as it shall be overridden
+although it is yet undefined on input line 25.
+[37
+
+
+
+
+] [38]
+Overfull \hbox (5.48288pt too wide) in paragraph at lines 75--77
+\LY1/qpl/m/n/12 (-20) to-tal solids, co-ag-u-lated with 2 wt% acetic acid un-der stir-ring, washed/rolled,
+ []
+
+Package acronym Info: Label `acro:DLS' newly defined as it shall be overridden
+although it is yet undefined on input line 78.
+Package acronym Info: Label `acro:PDI' newly defined as it shall be overridden
+although it is yet undefined on input line 78.
+
+Overfull \hbox (21.77147pt too wide) in paragraph at lines 78--79
+[]\LY1/qpl/m/n/12 (-20) Particle-level sta-bil-ity was checked by [][][]Dynamic Light Scat-ter-ing ([])[]/zeta
+ []
+
+
+Overfull \hbox (5.13492pt too wide) in paragraph at lines 87--89
+\LY1/qpl/m/n/12 (-20) Deuterium ox-ide (D$[]$O, CAS: 7789-20-0) and deuter-ated chlo-ro-form (CDCl$[]$,
+ []
+
+[39]
+Package acronym Info: Label `acro:TMPTA' newly defined as it shall be overridden
+although it is yet undefined on input line 95.
+
+Overfull \hbox (29.52013pt too wide) in paragraph at lines 95--96
+[]\LY1/qpl/m/n/12 (-20) Trimethylolpropane tri-acry-late ([][][]Trimethylolpropane Tri-acry-late ([])[],
+ []
+
+Package acronym Info: Label `acro:TPO' newly defined as it shall be overridden
+although it is yet undefined on input line 96.
+
+Overfull \hbox (1.63583pt too wide) in paragraph at lines 96--97
+[]\LY1/qpl/m/n/12 (-20) Phenylbis(2,4,6-trimethylbenzoyl)-phosphine ox-ide ([][][]Phenylbis(2,4,6-
+ []
+
+Package acronym Info: Label `acro:HDDA' newly defined as it shall be overridden
+although it is yet undefined on input line 109.
+[40] [41]
+Overfull \hbox (24.17848pt too wide) in paragraph at lines 147--148
+\LY1/qpl/m/n/12 (-20) To in-ter-pret viscosity--shear rate data across vol-ume frac-tion $\U/zeur/m/n/12 ^^^$\LY1/qpl/m/n/12 (-20) , a microstructure-
+ []
+
+[42] [43] [44]
+Package acronym Info: Label `acro:DOSY' newly defined as it shall be overridden
+although it is yet undefined on input line 239.
+ [45] [46] [47] [48] [49] [50] [51]) [52]
+pdfTeX warning (ext4): destination with the same identifier (name{page.52}) has been already used, duplicate ignored
 <to be read again> 
-                   \@elt 
-l.56 \include{chapters/chapter2}
-                                
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+                   \relax 
+l.69 \begin{colophon}
+                      [52
 
-c:/Users/dibis/OneDrive/Desktop/Thesis/LaTex/wi-thesis-template/dissertation.tex:56: You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.56 \include{chapters/chapter2}
-                                
-I'm forgetting what you said and using zero instead.
 
-c:/Users/dibis/OneDrive/Desktop/Thesis/LaTex/wi-thesis-template/dissertation.tex:70: Argument of \@iinput has an extra }.
-<inserted text> 
-                \par 
-l.70 \input
-           {backmatter/colophon}
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
+] (backmatter/colophon.tex) [53
 
-Runaway argument?
-c:/Users/dibis/OneDrive/Desktop/Thesis/LaTex/wi-thesis-template/dissertation.tex:70: Paragraph ended before \@iinput was complete.
-<to be read again> 
-                   \par 
-l.70 \input
-           {backmatter/colophon}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+] (dissertation.bbl
+bibitemlist
 
-)
-! Incomplete \iffalse; all text was ignored after line 70.
-<inserted text> 
-                \fi 
-<*> ...s/LaTex/wi-thesis-template/dissertation.tex
-                                                  
-The file ended while I was skipping conditional text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
+LaTeX Warning: Empty `thebibliography' environment on input line 15.
 
-! Emergency stop.
-<*> ...s/LaTex/wi-thesis-template/dissertation.tex
-                                                  
-*** (job aborted, no legal \end found)
+) [54
 
- 
+]
+\tf@toc=\write6
+\openout6 = `dissertation.toc'.
+
+\tf@lot=\write7
+\openout7 = `dissertation.lot'.
+
+\tf@lof=\write8
+\openout8 = `dissertation.lof'.
+
+ (dissertation.aux (frontmatter/frontmatter.aux) (chapters/chapter1.aux) (chapters/chapter2.aux) (chapters/chapter3.aux))
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: A0A9BFCD7878BC630E518FCC66C68483;5972.
+ ) 
 Here is how much of TeX's memory you used:
- 19914 strings out of 467871
- 310924 string characters out of 5418376
- 777676 words of memory out of 5000000
- 48182 multiletter control sequences out of 15000+600000
- 674682 words of font info for 165 fonts, out of 8000000 for 9000
+ 20344 strings out of 467871
+ 318456 string characters out of 5418376
+ 787131 words of memory out of 5000000
+ 48407 multiletter control sequences out of 15000+600000
+ 678517 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,12n,93p,2397b,693s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 85i,12n,93p,1652b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb>
+Output written on dissertation.pdf (72 pages, 517574 bytes).
+PDF statistics:
+ 940 PDF objects out of 1000 (max. 8388607)
+ 296 named destinations out of 1000 (max. 500000)
+ 29433 words of extra memory for PDF output out of 29859 (max. 10000000)
+
