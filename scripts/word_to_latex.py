@@ -187,8 +187,7 @@ def fix_headings(content: str) -> str:
     
     # First, insert Chapter 1 before "Background and Significance" (first real content)
     # This handles the case where the Word doc doesn't have an explicit Chapter 1 header
-    bg_pattern = r'(?<!\\chapter\{[^}]*\}\n\\label\{[^}]*\}\n\n)Background and Significance'
-    if re.search(bg_pattern, content) and '\\chapter{Introduction}' not in content:
+    if 'Background and Significance' in content and '\\chapter{Introduction}' not in content:
         content = re.sub(
             r'Background and Significance',
             r'\\chapter{Introduction}\n\\label{ch:introduction}\n\n\\section{Background and Significance}\n\\label{sec:background-and-significance}',
@@ -353,32 +352,9 @@ def split_into_chapters(content: str) -> dict[int, str]:
     """Split content into separate chapters."""
     chapters = {}
     
-    # First, try to find "Chapter X" or "Literature review" markers that weren't converted
-    # Add chapter commands for common patterns
-    content = re.sub(
-        r'^Literature\s+review\s*$',
-        r'\\chapter{Literature Review}\n\\label{ch:literature-review}',
-        content,
-        flags=re.MULTILINE | re.IGNORECASE
-    )
-    content = re.sub(
-        r'^Research\s+Methodology\s*$',
-        r'\\chapter{Research Methodology}\n\\label{ch:methodology}',
-        content,
-        flags=re.MULTILINE | re.IGNORECASE
-    )
-    
     # Find chapter boundaries
     chapter_pattern = r'\\chapter\{([^}]*)\}'
     matches = list(re.finditer(chapter_pattern, content))
-    
-    if not matches:
-        # No chapter commands found - check for "Background and Significance" as Chapter 1 start
-        bg_match = re.search(r'\\section\{Background and Significance\}', content)
-        if bg_match:
-            # Insert Chapter 1 before Background and Significance
-            content = content[:bg_match.start()] + '\\chapter{Introduction}\n\\label{ch:introduction}\n\n' + content[bg_match.start():]
-            matches = list(re.finditer(chapter_pattern, content))
     
     if not matches:
         print("[WARNING] No \\chapter{} commands found. Content may need manual review.")
