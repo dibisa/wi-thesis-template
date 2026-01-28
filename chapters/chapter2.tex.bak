@@ -1,0 +1,244 @@
+% chapter2.tex -- Chapter 2: Literature Review
+%
+% Natural Rubber Latex Thesis
+
+\chapter{Literature Review}
+\label{ch:literature-review}
+
+
+\section{Molecular Structure and Colloidal Stabilization}
+\label{sec:molecular-structure}
+
+Elastomers are long-chain viscoelastic polymers with low cross-linking density. Because of weak intermolecular interactions, polymer chains elongate significantly, up to 10 times their original length, when under load and return to their original form when the load is released. Compared to other polymers, elastomers are highly elastic. Amorphous polymers lack a long-range ordered structure, with molecular chains arranged randomly and without crystalline regions. These polymers are commonly used in applications requiring rigidity, transparency, and ease of processing; examples include polystyrene, polymethyl methacrylate, and polycarbonate. 
+
+In contrast, semicrystalline polymers contain both amorphous and crystalline regions, with tightly packed, ordered chains and randomly arranged regions. This dual structure gives semi-crystalline polymers a combination of rigidity and toughness, with common examples including polyethylene, polypropylene, and polyamide. Semi-crystalline polymers restrict the movement of molecular chains, resulting in less pronounced viscoelastic effects than amorphous polymers. The crystalline regions provide stability, leading to lower creep and relaxation at room temperature. In contrast, amorphous polymers often exhibit pronounced creep and relaxation due to the mobility of their molecular chains. The viscoelastic response of elastomers depends strongly on the degree of crosslinking and on the temperature relative to their glass transition temperature.
+
+Elastomers can be classified into two categories based on cross-linking: chemically cross-linked (thermoset elastomers) and physically cross-linked (\ac{TPE})~\cite{}. These materials are characterized by their unique mechanical properties, such as hardness, tensile strength, toughness, and strain stress source flexibility, demonstrating hyper-elasticity with substantial recoverable strain under low-stress conditions. Elastomers include natural rubber, silicone rubber, and synthetic organic rubbers like \ac{SBR}, nitrile rubber, and polyurethanes.
+
+The stress-strain behavior of rubber has been further explained using theoretical models that account for its elastic properties. For example, the neo-Hookean model, derived from statistical mechanics, describes the stress-strain behavior of rubber at moderate strains by assuming an ideal elastomer with a network of cross-linked polymer chains, each behaving like a Gaussian chain, with elasticity driven by entropy. The Mooney-Rivlin model extends this by considering the second invariants of the deformation tensor, providing a strain energy function that better fits experimental data over a broader range of strains.
+
+In elastomers, elasticity is driven by thermodynamics, in which the restoring force during stretching is related to entropy changes rather than to internal energy. When rubber is stretched, polymer chains become more ordered, thereby decreasing entropy; upon stress release, they return to a disordered state, thereby increasing entropy. The free energy change during deformation links to the entropy change via the equation:
+\begin{equation}
+    \Delta F = -T \Delta S
+    \label{eq:free-energy}
+\end{equation}
+where $T$ is temperature, $\Delta S$ is entropy, and $\Delta F$ (force) is proportional to the negative gradient of free energy with respect to deformation.
+
+
+\subsection{Natural Rubber Latex}
+\label{subsec:nrl}
+
+Natural rubber is a biopolymer known for its hyperelasticity, biocompatibility, and abundance in nature, occurring as a colloidal sol called \emph{latex}. \ac{NRL}, a milk-like substance primarily derived from the \emph{Hevea brasiliensis} tree, is a unique lyophobic colloidal dispersion of polymers that occur naturally as a metabolic product in certain plants. These plants are cultivated extensively in tropical regions in a climate of about 26°C with an average annual rainfall of 200~cm and less than 15° away from the equator. These materials have been applied in dipping with products such as balloons, gloves, condoms, and other products, such as memory foam and adhesives.
+
+\ac{NRL} is synthesized via a conserved isoprenoid pathway that also produces dolichols, polyprenols, and quinones. The process begins with the formation of isopentenyl pyrophosphate (IPP) and dimethylallyl pyrophosphate (DMAPP) through either the mevalonate (MVA) or methylerythritol phosphate (MEP) pathway. These C$_5$ units are polymerized in four phases, with \emph{trans}-prenyltransferases (tPTs) in Phase 2 generating short all-\emph{trans} primers (C$_{10}$--C$_{20}$). The subsequent elongation, catalyzed by \emph{cis}-prenyltransferases (cPTs), introduces \emph{cis}-double bonds, forming NR's characteristic \emph{cis}-1,4-polyisoprene backbone.
+
+The primary source of \ac{NRL} is \emph{Hevea brasiliensis}, which contains rubber particles (RPs) ranging from 0.08 to 2~$\mu$m in diameter. Alternative rubber-producing plants, including Guayule (\emph{Parthenium argentatum}), are being explored, which produce RPs with uniform size ($\sim$0.5~$\mu$m). Russian dandelion (\emph{Taraxacum koksaghyz}) yields smaller RPs ($\sim$0.35~$\mu$m) with a unimodal distribution. \emph{Ficus} species (\emph{F. benghalensis}, \emph{F. elastica}) generate larger RPs (1.6--6.0~$\mu$m) but with comparable polymer quality. \ac{NRL} is collected through tapping, an incision of the trunk that requires immediate preservation to prevent putrefaction and premature coagulation during transport and processing.
+
+Ammonia remains the most effective preservative, stabilizing rubber particles through electrostatic repulsion while inhibiting microbial growth. However, it's a double-edged sword; ammonia production requires extensive resources, making it highly volatile (OSHA limits exposure to 50~ppm over an 8-hour shift), highly flammable at high concentrations, and challenging to dispose of wastewater. Its production, which relies on the energy-intensive Haber-Bosch process, makes it a significant energy consumer and a prominent emitter of greenhouse gases, accounting for 1.2\% of global anthropogenic CO$_2$ emissions (approximately 1.8 tons of CO$_2$ per ton of ammonia).
+
+
+\subsection{Alternative Preservation Systems}
+\label{subsec:preservation-systems}
+
+These limitations have spurred the development of alternative preservation systems, including low-ammonia combinations (0.1--0.3\% with secondary stabilizers) and completely ammonia-free options using zinc complexes or bio-based antimicrobials, as well as surfactants. Examples include:
+
+\begin{itemize}
+    \item \textbf{Chitosan-based systems} (derived from crustacean shells) provide antimicrobial protection but require low molecular weights and surfactants to prevent destabilization of latex particles.
+    \item \textbf{HTT (sym-triazine derivative)} effectively preserves latex for months without the toxicity of ammonia, while improving mechanical properties such as tear strength.
+    \item \textbf{Pasteurization} (60°C, 15 minutes) with pH adjustment provides short-term microbial control but increases viscosity and is ineffective for pre-spoiled latex.
+    \item A newer, proprietary system that \textbf{AFLatex Technology LDA} supplies eliminates ammonia use while maintaining colloidal stability.
+    \item \textbf{Ethoxylated tridecyl alcohol (ETA) + hydrofluoric acid (HF)}: ETA stabilizes latex particles, while HF reacts with glutathione to form glutathione, an antimicrobial compound.
+\end{itemize}
+
+
+\section{Colloids}
+\label{sec:colloids}
+
+Colloids are particles that range from micrometers to nanometers in size and must behave according to classical physics. They possess two unique properties: they are suspended in a solvent without sedimenting and, in a dilute solution, the solvent induces random motion (thermal motion) known as Brownian motion. The particles in a fluid experience an effective weight that considers the gravitational force acting downward and the buoyancy force due to the solvent.
+
+Once particles enter the Brownian regime, their subsequent behavior---whether they remain dispersed, weakly flocculate, or irreversibly aggregate---is governed by their interparticle potentials. The \ac{DLVO} theory identifies two main interactions:
+
+\begin{enumerate}
+    \item \textbf{Electrostatics}: Particles typically have surface charge density ($\sigma$), so in a vacuum they interact through a bare Coulomb potential represented by $1/(4\pi\epsilon_0)$. In a solvent, this prefactor changes to $1/(4\pi\epsilon_m)$ because the medium's dielectric permittivity ($\epsilon_m$) screens the electric fields. When dissolved ions create an ionic atmosphere known as a double layer, it ``dresses'' the particle charges, transforming the Coulomb interaction into a screened-Coulomb (Debye--Hückel/Yukawa) form. The Debye length ($\kappa$) determines the range---higher ionic strength leads to a shorter Debye length.
+    
+    \item \textbf{Van der Waals attraction}: Fluctuating and induced dipoles create an always-present attraction. When summed for all molecules in two bodies, this interaction is captured by the Hamaker constant ($A$). Importantly, the Hamaker constant depends on the dielectric contrast between the particle and the medium.
+\end{enumerate}
+
+With Brownian colloids in motion, collisions are inevitable. The challenge is to ensure these collisions are non-sticky, so the dispersion remains in the ``colloidal'' size range rather than collapsing into clusters that sediment, cream, gel, or phase separate. In \ac{DLVO} terminology, stability is achieved by engineering the total interaction potential to create a repulsive energy barrier at intermediate separations.
+
+
+\subsection{Surfactant Stabilization Mechanisms}
+\label{subsec:surfactant-mechanisms}
+
+Surfactants stabilize colloids by controlling what happens at the particle--water interface. Three common mechanisms map onto surfactant classes:
+
+\begin{enumerate}[label=(\roman*)]
+    \item \textbf{Ionic surfactants} contribute to electrostatic stabilization. Anionic \ac{SDS} adsorbs with its sulfate headgroup exposed, which typically results in a more negatively charged surface, thereby increasing the zeta potential and enhancing the \ac{DLVO} repulsive barrier.
+    
+    \item \textbf{Nonionic surfactants} contribute to steric stabilization. Examples include Tween (polysorbates) or ethoxylated surfactants, which adsorb onto particle surfaces to form a hydrated, polymer-like brush layer.
+    
+    \item \textbf{Zwitterionic surfactants} exhibit pH- and ion-sensitive behavior. Their betaine-like head groups carry both positive and negative charges; depending on the pH and specific ionic environment, they can display either more cationic or more anionic characteristics.
+\end{enumerate}
+
+
+\section{The Theory of Natural Rubber Latex}
+\label{sec:nrl-theory}
+
+Tanaka and Sakdapipanich's innovative framework presents a compelling solution to the materials puzzle surrounding natural rubber (NR), revealing its distinct behavior as ``more structured'' compared to a simple \emph{cis}-1,4-polyisoprene melt. This observation is evidenced by the presence of a gel fraction, long-chain branching signatures, and storage hardening phenomena, which they posit as emergent properties resulting from non-rubber functionalities rather than the polyisoprene backbone alone.
+
+Their methodology is notably deconstructive, initiating with strategies such as deproteinization to remove proteins, the addition of a polar cosolvent to disrupt weak associations, and targeted cleavage of chemical linkages through techniques like transesterification/saponification and enzymatic digestions. A key aspect of their investigation is the subsequent monitoring of gel content along with molecular weight and branching metrics.
+
+The testable hypothesis is that NR chains possess a nitrogenous functional group at one terminal end, often linked to oligopeptide-like characteristics, which is not merely a consequence of protein contamination but rather a chemically integrated component of the rubber structure. The second postulate is that the opposing terminal is proposed to house phospholipid-derived functionalities, including phosphate and ester motifs, acting as a branching or gel ``node.''
+
+
+\subsection{Structure-Process-Property of Natural Rubber Latex}
+\label{subsec:structure-process-property}
+
+According to documents from 2013 to 2020, the understanding of the structure--process--property relationship in uncured natural rubber remains complex, characterized by conflicting interpretations. Microscopy and colloid science predominantly suggest the presence of a particle ``corona,'' a protein and lipid-rich interfacial shell. The bulk mechanical properties, rheological behavior, and crystallization kinetics of coagulated rubber are consistent with a model involving a pseudo-end-linked network. Consequently, literature delineates a dialectic between two perspectives:
+\begin{enumerate}[label=(\roman*)]
+    \item a spatially organized interfacial architecture in the latex state,
+    \item network-like constraints inferred from solid-state or post-coagulation responses.
+\end{enumerate}
+
+This debate is not merely semantic, as unvulcanized natural rubber exhibits rubber-like stress responses and \ac{SIC} at ambient temperature, in ways not observed in synthetic \emph{cis}-polyisoprene, suggesting the existence of constraints beyond simple melt entanglements.
+
+
+\section{Suspensions Rheology and Theoretical Models}
+\label{sec:rheology-theory}
+
+Viscosity represents the fluid's internal resistance to flow. It quantifies the rate at which mechanical energy is dissipated into heat due to friction between fluid layers. In colloidal systems, viscosity arises because the solid particles disturb the flow of the liquid, forcing flow lines to bend and compressing fluid elements, which increases energy dissipation. The viscosity of a colloid ($\eta$) is usually compared to the medium's viscosity ($\eta_m$) as the Relative Viscosity ($\eta_r$). Since colloids experience strong hydrodynamic coupling through the solvent and exhibit Brownian motion, their rheology is governed by a competition between:
+\begin{enumerate}[label=(\roman*)]
+    \item thermal forces that randomize structure,
+    \item viscous dissipation from solvent flow around particles, and
+    \item interparticle forces that stabilize or aggregate the dispersion.
+\end{enumerate}
+
+Brownian motion sets the intrinsic structural relaxation rate via the Stokes--Einstein diffusion coefficient:
+\begin{equation}
+    D_0 = \frac{k_B T}{6\pi\eta_s a}
+    \label{eq:stokes-einstein}
+\end{equation}
+where $a$ is particle radius and $\eta_s$ is solvent viscosity. A characteristic Brownian time is $\tau_B \sim a^2/D_0$, which leads to a dimensionless shear rate (Péclet number):
+\begin{equation}
+    Pe = \dot{\gamma}\tau_B
+    \label{eq:peclet}
+\end{equation}
+When $Pe \ll 1$, microstructure relaxes faster than the imposed deformation, and the suspension behaves near equilibrium; when $Pe \gtrsim 1$, flow distorts microstructure faster than Brownian rearrangement, producing rate-dependent viscosity.
+
+
+\subsection{Predictive Viscosity Models}
+\label{subsec:viscosity-models}
+
+The historical starting point is Einstein's 1905 result for infinitely dilute, rigid, noninteracting spheres in a Newtonian solvent:
+\begin{equation}
+    \eta_r \equiv \frac{\eta}{\eta_s} = 1 + [\eta]\phi = 1 + 2.5\phi
+    \label{eq:einstein}
+\end{equation}
+Here $[\eta] = 2.5$ is the intrinsic viscosity of a sphere, obtained from solving the Stokes (creeping-flow) problem around an isolated particle.
+
+Moving beyond ``infinitely dilute'' means admitting that particles feel each other. The next correction is the $\phi^2$ term:
+\begin{equation}
+    \eta_r = 1 + 2.5\phi + k_2\phi^2 + \cdots
+    \label{eq:virial}
+\end{equation}
+where $k_2$ encodes pairwise hydrodynamic interactions plus any microstructural bias.
+
+Once $\phi$ becomes large enough, pairwise corrections stop being the main story. Many-body constraints appear, particles become caged by neighbors, and viscosity rises dramatically as the system approaches a packing-limited state. The Krieger--Dougherty expression provides a widely used refinement:
+\begin{equation}
+    \eta_r = \left(1 - \frac{\phi}{\phi_m}\right)^{-[\eta]\phi_m}
+    \label{eq:krieger-dougherty}
+\end{equation}
+This form is especially practical for high-solids formulations because it cleanly separates what you often know ($[\eta] \approx 2.5$ for near-spheres) from what you must fit ($\phi_m$, which depends on size distribution, softness, shape, and dispersion quality).
+
+
+\subsection{Yield Stress and Shear-Thinning Models}
+\label{subsec:yield-stress-models}
+
+After phase separation or flocculation, the microstructure stops being ``crowded hard spheres'' and becomes a load-bearing network. That network introduces a yield stress because at low stress the structure does not continuously rearrange---it resists like a weak solid. The simplest yield-stress constitutive model is Bingham:
+\begin{equation}
+    \tau = \tau_y + \eta_p \dot{\gamma}
+    \label{eq:bingham}
+\end{equation}
+but for colloidal gels and flocculated suspensions the more flexible choice is the Herschel--Bulkley form:
+\begin{equation}
+    \tau = \tau_y + K\dot{\gamma}^n \quad (0 < n < 1 \text{ for shear thinning})
+    \label{eq:herschel-bulkley}
+\end{equation}
+
+For shear-thinning behavior without an explicit yield stress, the Cross model adds plateaus:
+\begin{equation}
+    \eta(\dot{\gamma}) = \eta_\infty + \frac{\eta_0 - \eta_\infty}{1 + (\lambda\dot{\gamma})^m}
+    \label{eq:cross}
+\end{equation}
+and the Carreau--Yasuda model is a closely related, often smoother alternative:
+\begin{equation}
+    \eta(\dot{\gamma}) = \eta_\infty + (\eta_0 - \eta_\infty)\left[1 + (\lambda\dot{\gamma})^a\right]^{(n-1)/a}
+    \label{eq:carreau-yasuda}
+\end{equation}
+
+These are not just curve-fits; they have interpretable parameters. $\eta_0$ reflects the equilibrium (low-$Pe$) microstructure, $\eta_\infty$ reflects the high-$Pe$ state where structure is strongly distorted/ordered, and $\lambda$ is a characteristic time scale that often tracks a microstructural relaxation time.
+
+
+\section{Additive Manufacturing}
+\label{sec:additive-manufacturing}
+
+\ac{AM}, or 3D printing, refers to a family of processes that fabricate parts by adding material, usually layer by layer, from a digital model. This distinguishes \ac{AM} from subtractive manufacturing (such as milling and drilling) and tooling-driven formative routes that rely on molds. \ac{AM} was initially adopted for rapid prototyping, but it is now widely integrated into manufacturing workflows, particularly for low-volume production, where avoiding molds and secondary machining offers significant advantages.
+
+The historical development of \ac{AM} dates to early concepts in the 1950s--1960s, with practical acceleration in the early 1980s as enabling technologies (computers, lasers, and motion control) matured. A key milestone occurred in 1984 with parallel patents in Japan, France, and the United States describing layer-by-layer fabrication of 3D objects. Commercialization expanded through the late 1980s and 1990s with multiple process families, including \ac{LOM}, SGC, and \ac{SLS} in 1986, followed by patents for \ac{FDM} and the MIT-originated 3DP concept in 1989.
+
+Within \ac{AM}, \ac{VPP} is particularly central to this thesis because it uses photopolymer materials to cure a liquid resin into solid layers with high feature fidelity. In the \ac{AM} materials landscape, photopolymers have dominated the market for over 30 years, consistent with the sustained industrial relevance of \ac{VPP} and the continued research aimed at expanding printable material sets and improving performance.
+
+
+\subsection{Photoresins for Vat Photopolymerization}
+\label{subsec:photoresins}
+
+\ac{VPP} (SLA/\ac{DLP} and related processes) requires a liquid formulation that remains stable in the vat over printing timescales, recoats reproducibly, exhibits predictable light absorption for controllable cure depth, and polymerizes rapidly enough to preserve feature geometry while maintaining interlayer bonding.
+
+Most \ac{VPP} photoresins can be classified into five ingredient classes:
+\begin{enumerate}
+    \item \textbf{Oligomers}: Define the baseline mechanical response of the cured network and strongly influence toughness, chemical resistance, and creep.
+    \item \textbf{Reactive diluent monomers}: Reduce viscosity while co-polymerizing into the network.
+    \item \textbf{Photoinitiators}: Determine usable wavelengths and conversion efficiency by converting absorbed photons into radicals or cations.
+    \item \textbf{Inhibitors and antioxidants}: Suppress premature polymerization during storage and printing.
+    \item \textbf{Additives}: UV absorbers, pigments, fillers, and plasticizers alter durability, resolution, and defect propensity.
+\end{enumerate}
+
+
+\subsection{Challenges of Elastomers in Vat Photopolymerization}
+\label{subsec:elastomer-challenges}
+
+Fabricating complex elastomeric geometries is difficult with conventional tool-based manufacturing methods. Thus, \ac{VPP} is particularly relevant for application spaces that benefit from customized or intricate elastomer parts for medical devices, lightweight components, seals, and gaskets. A dominant processing constraint in \ac{VPP} is resin viscosity. Highly viscous photopolymers impede recoating and can prolong print times; in severe cases, they contribute to geometric error and warpage.
+
+For elastomeric photoresins, viscosity control is coupled to mechanical performance through oligomer selection. Low-molecular-weight oligomers improve flow and spreading during printing but can reduce elastomeric extensibility in the cured network compared with formulations that preserve a more elastomer-like chain architecture. Conversely, increasing effective molecular size increases viscosity, which is outside the process window, creating a formulation tension between recoating/printability (often referred to as the flowability--part quality paradox).
+
+
+\subsection{Polyurethane and Silicone Elastomers}
+\label{subsec:pu-silicone}
+
+Among elastomeric materials used in photocurable systems, polyurethanes (PUs) are widely studied because their properties can be tuned through the controlled incorporation of functional groups beyond the urethane linkage. In PU synthesis, urethane linkages form upon reaction of diisocyanates with polyols, and the selection and functionality of these building blocks govern whether the resulting polymer is predominantly linear or chemically crosslinked.
+
+Silicone elastomers represent a second major elastomer class relevant to photocurable formulations, distinguished by a non-organic siloxane backbone consisting of alternating Si--O units with organic substituents on silicon. Their property set is frequently linked to backbone chemistry and chain architecture: the Si--O bond has substantial thermodynamic strength and ionic character, and the combination of short bond lengths and a wide Si--O--Si bond angle contributes to conformational flexibility, low surface tension, very low glass transition temperature (reported around $-127$°C), low elastic modulus (typically a few MPa), and high stretchability (ultimate strains exceeding 300\%).
+
+
+\subsection{Emulsion-Based 3D Printing of Elastomers}
+\label{subsec:emulsion-printing}
+
+3D printing has faced challenges in creating soft, stretchy, and resilient objects due to the Viscosity-Printability-Cure (VPC) paradox. Rubber's elasticity comes from long, tangled polymer chains, but this also makes it thick and viscous, hindering smooth flow for high-resolution printing. As a result, only less stretchy, elastomer-like materials with shorter chains are typically used.
+
+Emulsions for 3D printing offer a solution by decoupling material properties from printing viscosity. Instead of dissolving long polymer chains, it suspends tiny rubber particles in a low-viscosity liquid, like fat globules in milk. This allows for the use of fluid resins that cure into high-performance, hyperelastic solids.
+
+Two primary strategies for creating these emulsions are:
+\begin{enumerate}
+    \item \textbf{Oil-in-Water emulsions}: Tiny particles of high-performance polymer (the oil phase) are dispersed in a continuous water-based medium. An example is \ac{NRL}, which consists of polyisoprene particles in water.
+    \item \textbf{Water-in-Oil (W/O)}: Tiny water droplets dispersed in a continuous oil phase, typically a liquid monomer that will form the polymer structure. Less common for solid elastomers, this method is used to create highly porous, foam-like structures known as polyHIPE materials.
+\end{enumerate}
+
+Current challenges in emulsion-based 3D printing include:
+\begin{enumerate}
+    \item \textbf{Shrinkage Management}: The removal of water from printed parts often leads to significant shrinkage.
+    \item \textbf{Print Stability}: Maintaining a uniform emulsion mixture is critical.
+    \item \textbf{Green Part Handling}: The initial printed objects are soft hydrogels prone to deformation.
+    \item \textbf{Resolution vs.\ Viscosity Tradeoff}: Increasing rubber particle concentration can enhance material strength but may reduce print resolution due to light scattering.
+\end{enumerate}
+
+Despite these challenges, emulsion-based 3D printing holds transformative potential for soft materials. By addressing the paradox of viscosity and print capability, researchers are advancing toward the production of high-performance elastomers for applications in soft robotics, custom medical devices, and sustainable products.
