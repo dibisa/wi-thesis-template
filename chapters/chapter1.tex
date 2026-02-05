@@ -5,128 +5,145 @@
 \chapter{Introduction}
 \label{ch:introduction}
 
-\section{Biopolymers and Sustainable Materials}
-\label{sec:biopolymers}
+\section{Background and Significance}
+\label{sec:background}
 
-% Each sentence is on its own line for easier editing.
+Materials or processes are sustainable only if their mass, energy, and waste byproduct can be maintained over time without imposing unacceptable burdens on ecosystems, workers, or future waste managers.
+In polymers, this immediately forces us to separate labels that are commonly conflated:
+\emph{bio-based}, which are carbon sourced from contemporary biomass;
+\emph{biodegradables} are polymers that undergo microbial mineralization under specific conditions;
+\emph{compostable}, which are biodegradable under standardized composting conditions;
+and \emph{circular}, which is controlled end-of-life cases such that keeping carbon and value in use through reuse or recycling and reserving biodegradation.
 
-Biopolymers aren't one thing, and the labels matter because they imply different end-of-life routes.
-``Biopolymer'' can mean (i) \emph{a polymer made by biology} (cellulose, starch, proteins, natural rubber)
- or (ii) \emph{a polymer made from bio-based feedstocks} (industry often uses ``biopolymer/bioplastic'' loosely).
-Bio-based (renewable) means the carbon comes from contemporary biomass rather than fossil carbon;
-it says nothing by itself about degradability.
-Biodegradable means microbes can mineralize the material (to CO$_2$/CH$_4$, water, and biomass) under specific conditions;
-the same polymer can behave very differently in soil, seawater, and industrial composting.
-Compostable is a stricter subset of biodegradable: it must meet defined performance standards in composting conditions.
-Circular is not a synonym for biodegradable; it is a systems goal:
-keep carbon and value in circulation via reuse, mechanical/chemical recycling,
-and use biodegradation only when it is a controlled, appropriate end-of-life pathway (e.g., contaminated organics packaging).
+Long before the petrochemical era, society already lived in a world of consumer biopolymers.
+Natural polymers, such as proteins, polysaccharides, and plant resins, were processed into fibers, coatings, molded goods, and medical materials, often with surprisingly sophisticated empirical know-how.
+A canonical example of a plant polymer is silk.
+The legend of Empress Si Ling-Chi traces a multi-millennia origin story in which silk production and formulation were treated as strategic secrets, restricted for centuries before spreading through trade networks.
+And for roughly the first half of the 20th century, before synthetics fully dominated, many bio-derived materials still occupied real consumer space, for example, casein plastics, natural resins, natural fibers, because they were accessible, workable, and ``good enough'' for the specification culture of the time.
 
-In practice, materials like \ac{PLA} are bio-based and (industrially) biodegradable;
-\ac{PHA} are bio-based and biodegradable;
-cellulose is a true biopolymer and biodegradable;
-bio polyethylene ``bio-PE'' is renewable but \emph{not} biodegradable (it's chemically the same as PE).
+Many historical biopolymer feedstocks carried serious liabilities that modern manufacturing cannot tolerate, such as ethical and supply constraints.
+In the latter, as with animal-derived materials, examples include competition with food or farmland, large seasonal variability, and intrinsic components that must be removed or modified to achieve biocompatibility or consistent performance.
+Silk is a clear example of the broader point.
+Despite excellent mechanical behavior, biomedical use encountered biocompatibility issues that required additional extraction and refinement steps to remove sericin-related responses, which then altered handling and performance and did not fully eliminate all limitations.
 
-This matters because regulation and brand risk are now shaping materials selection, especially in packaging.
-Market tracking consistently shows packaging as the dominant biopolymer application ($\sim$38.6\% revenue share in 2023)
-and biodegradable polyesters as the leading product family ($\sim$45\% share in 2023),
-which aligns with the ``short-lived, high-volume'' pain point where end-of-life is the bottleneck.
-Policy is a major driver of demand:
-the EU's single-use plastics framework targets common disposable items (e.g., cutlery, plates, straws)
-and requires substitution and redesign.
-At the same time, biobased plastics remain a small slice of total plastics output
-(production capacity on the order of $\sim$0.5\% of global plastics),
-which is why ``biopolymers everywhere'' is not a near-term default.
-Natural rubber is a renewable elastomer already produced at an industrial scale
-($\sim$13.6 million tons in 2019, comparable to $\sim$15.1 million tons of synthetic rubber),
-demonstrating that bio-sourced polymers can reach commodity volumes when supply chains, processing, and performance are locked in.
+When DuPont hired Wallace Hume Carothers, the development pathway that culminated in nylon created a materials regime defined by scalability, reproducibility, and tunable functionality.
+By 1938 nylon had already begun displacing silk in major consumer applications, and the larger pattern became clear.
+Synthetics could be produced at scale, with standardized specs, and engineered into families of materials that were not geographically bound to particular crops or ecosystems.
+Over the following decades, that advantage compounded, and by the 1970s and 1980s, synthetic polymers had become the default material platform.
 
-So, what's stopping broader adoption is mostly cost + processing + end-of-life fit, not a lack of ``green intent.''
-Many bioplastics still carry a cost premium, often reported at $\sim$2--3$\times$ that of conventional plastics,
-and sometimes higher in specific applications because petrochemical polymers have brutal economies of scale, optimized assets, and mature logistics.
-On the processing side, biopolymers often have narrower processing windows:
-moisture-driven hydrolysis (e.g., polyesters like \ac{PLA}/PBS), lower thermal stability, different crystallization kinetics (affecting shrinkage/warpage),
-and rheology issues such as low melt strength or inconsistent shear-thinning, which complicate extrusion, thermoforming, and high-speed packaging lines.
-Those gaps get ``patched'' with compatibilizers, chain extenders, nucleating agents, plasticizers, and multilayer structures,
-with each addition increasing cost and recycling complexity.
-End-of-life is the third wall:
-mechanical recycling streams are sensitive to contamination;
-composting requires correct collection infrastructure and clear labeling;
-and ``biodegradable'' claims can backfire when disposal conditions don't match the material's biodegradation pathway.
+Despite the breadth of synthetic polymer innovation, natural rubber (NR), one of the oldest biopolymers, has not been replaced across many critical applications.
+This persistence indicates that natural rubber occupies a unique performance niche among elastomers.
+\ac{NRL} is a high-value biosynthesized elastomeric platform, but its full potential is limited by processing constraints, preservation chemistry, and the inherent variability of a living colloidal system, such as bioincompatibility and waste byproduct control.
+The central aim of this dissertation is to address technical challenges that can enable the expansion of natural rubber latex into more versatile, high-performance, and biocompatible material routes, while retaining its established advantages.
 
 
 \section{Developing Circular Economies}
 \label{sec:circular-economies}
 
-The concept of a circular economy must be understood as a rigorous materials-flow strategy rather than a synonym for ``bio-based'' or ``biodegradable'' labeling.
-This distinction establishes a dialectic between the noumenon, the abstract ideal of ``circularity,'' and the phenomenon, which constitutes the measurable realities of mass balances, energy use, emissions, and waste leakage.
-While the label serves as a guiding principle, it only earns its validity when the physical flows successfully close without generating excessive externalities.
-The resolution of this tension requires moving beyond the philosophical adoption of sustainability terms to a quantitative audit of material lifecycles, recognizing that a loop is only truly closed when the energy and material inputs of recovery are lower than those of virgin extraction.
+So why are we considering a return to biopolymers?
+The very durability and versatility that make petrochemical polymers valuable have also led to significant waste management challenges and associated externalities at the national scale.
+A striking statistic highlighted in the literature on historical synthetic polymers is that over 25 million tons of plastic were introduced into the U.S. municipal solid waste (MSW) stream in 2001, with non-biodegradable plastic waste accounting for over 11\% of MSW, up from approximately 1\% in 1960.
+The issues of incineration and litter further exacerbate health, pollution, and aesthetic concerns.
+Nevertheless, the transition back to biopolymers is not a simple endeavor; correlation does not imply causation.
+The ``legacy'' natural polymers of the past, characterized by their bio-incompatibility and processing difficulties, cannot straightforwardly compete with the optimized performance of contemporary synthetics.
+However, there is one notable exception to this synthetic dominance, it is Natural Rubber.
 
-This thermodynamic reality challenges the circularity of fossil-derived elastomers.
-The lifecycle of these materials begins with an established energy penalty involving drilling, refining, and steam cracking to produce monomers like butadiene and styrene,
-and recycling aims to mitigate this by reducing virgin feedstock demand.
-However, this proposition faces a stark antithesis: recycling is rarely thermodynamically free.
-Mechanical recycling is constrained by property drift and contamination,
-while chemical routes such as solvolysis or pyrolysis require high temperatures and purification trains that reintroduce significant heat and reagent intensity.
-Consequently, the circularity of fossil polymers often amounts to trading a feedstock debt for an energy debt.
+Current research on the development of circular economies for sustainable polymers focuses on pathogenesis.
+Bacteria naturally synthesize a variety of polymer classes, including polysaccharides, polyesters, polyamides, and polyphosphates.
+Recent studies emphasize the potential to repurpose these biopolymers, traditionally linked to pathogenesis or survival, into advanced materials.
+For instance, polyhydroxyalkanoates (PHAs) are synthesized by bacteria that convert metabolic intermediates, hydroxyacyl-CoA, into polymers, storing the resultant products as hydrophobic intracellular inclusions.
+Depending on their composition, PHAs can manifest as either thermoplastics or elastomer-like materials.
+Similarly, natural rubber, which is initially found in nature as a latex, is produced in a manner that parallels the biosynthesis of polymers within a cellular context.
+In plant cells known as laticifers, soluble Isopentenyl Pyrophosphate (IPP) exists in the latex serum.
+The Rubber Transferase enzyme, often aided by the Rubber Elongation Factor (REF), is situated on the surface of the rubber particle, where it captures IPP and incorporates it into the polyisoprene chain within the particle.
 
-\ac{NRL} introduces a unique biological advantage to this equation, yet it faces its own material dialectic.
-The thesis of \ac{NRL} is its superior carbon source: it is ``manufactured'' \emph{in planta} via photosynthesis,
-sequestering carbon and arriving at the factory gate as a processable colloid without the energy intensity of synthetic polymerization.
-However, the antithesis arises at the end-of-life: while raw rubber is biodegradable,
-high-performance applications require vulcanization, creating a crosslinked network that resists biological breakdown and complicates reprocessing.
-This physical constraint limits current circular options to downcycling (crumb rubber) or energy recovery,
-rather than true biological reintegration.
-The resolution of this dialectic clarifies the technical path forward: while \ac{NRL} solves the sustainable sourcing problem,
-the industry must still confront the physics of the crosslinked network.
+\ac{NRL} aligns with several circular economy objectives because it is a renewable feedstock and is already produced at a commodity scale for high-value applications.
+Those applications are tires, gloves, balloons, gaskets, hoses, etc.
+Dong et al.\ evaluated four concrete-conveying rubber hoses that differed solely in their inner-liner formulations, which influenced their composition and service life.
+Within a natural rubber (NR) and synthetic blend, increasing the NR fraction to 60 parts per hundred rubber (phr) can reduce the climate change type impact and water depletion.
+Furthermore, the service life of the hoses is primarily determined by the additives used, as well as the design and formulation strategy of the liner, rather than merely the ratio of NR to synthetic rubber.
+Therefore, any claims regarding circularity must be directly associated with the functional unit.
+
+The environmental implications of rubber products are influenced significantly by a combination of agricultural practices, processing methods, and formulation choices, rather than solely by the polymer type.
+Cucci et al.\ (2025) underscore that the primary environmental impact during the cultivation phase of natural rubber arises from the supply of raw materials.
+Specifically, they highlight that Direct Land Use Change (LUC), with an emphasis on deforestation, accounts for up to 79\% of the carbon footprint, overshadowing emissions from manufacturing processes.
+In a related study, Dunuwila et al.\ (2025) assert that in Sri Lankan crepe rubber production, the substantial environmental burdens are attributable not to the rubber itself but to intensive agricultural inputs such as fertilizers, water, and electricity.
+They propose a ``trade-off valuation index'' to evaluate these inputs, emphasizing that fertilizer production constitutes a significant source of toxicity and eutrophication.
+Research by Soratana et al.\ (2017) indicates that while Guayule rubber has a lower ozone depletion potential than synthetic rubber (SBR), it may have a higher global warming potential (GWP) and greater acidification potential in certain circumstances, primarily due to energy-intensive irrigation and processing requirements.
+Furthermore, their findings suggest that SBR possesses markedly lower Acidification Potential (AP) and Eutrophication Potential due to its reduced reliance on nitrogen-based fertilizers and the complexities of land management inherent to Hevea and Guayule cultivation.
+
+Many studies also reveal that inefficient drying processes in Hevea rubber processing can significantly increase GWP, making SBR more favorable in certain scenarios.
+Jawjit et al.\ (2015) highlight that in the production of concentrated latex, the centrifugation process contributes 50\% of the global warming potential and 58\% of the acidification potential, while ammonia preservation accounts for 37\% of human toxicity, thereby correlating with ongoing initiatives to adopt non-toxic preservatives.
+Marrero Nunes et al.\ (2025) further emphasize the substantial thermal and water use during production, which exacerbates the impacts of global warming and ecotoxicity.
+They advocate establishing standardized Product Environmental Footprint guidelines to address the significant environmental burden posed by the 17 million tons of end-of-life tires generated annually.
+Additionally, Eranki et al.\ (2019) present findings from a cradle-to-grave analysis of a Guayule tire, revealing that the use phase is responsible for approximately 95\% of the total life-cycle energy consumption.
+Notably, the lower rolling resistance of Guayule tires reduces emissions by 6--30\% across 10 impact categories compared to conventional tires.
+Marrero Nunes et al.\ (2025) conclude that while the processing of natural rubber is challenged by localized toxicity from ammonia and the acids used in preservatives and coagulation, the environmental burdens associated with synthetic rubber predominantly arise from fossil resource depletion and the formation of photochemical smog from petrochemical processing.
 
 
 \section{Meeting Global Demand and Feedstock Diversification}
 \label{sec:global-demand}
 
-Natural rubber remains hard to replace because its \emph{cis}-1,4 polyisoprene chains undergo strain-induced crystallization,
-which gives a combination of green strength, fatigue resistance, resilience, and low heat buildup that many synthetic elastomers match only partially or at higher formulation complexity.
-This is why natural rubber shows up in tires, belts, hoses, vibration isolators, footwear, and medical goods,
-and why tire manufacturing dominates demand; in the European Union, roughly three-quarters of natural rubber consumption is used for tires.
+Natural rubber remains difficult to replace because its \emph{cis}-1,4 polyisoprene chains, which undergo strain-induced crystallization, offer a combination of green strength, fatigue resistance, resilience, and low heat buildup that many synthetic elastomers can only partly match or require more complex formulations.
+This is why natural rubber is used in tires, belts, hoses, vibration isolators, footwear, and medical goods, with tire manufacturing accounting for most of the demand.
+In the European Union (EU), about three-quarters of natural rubber consumption is for tires.
+Global production shows both growth and limitations.
+For example, in 2019, it reached around 13.6 million tons, up from 3 million in 2010, and synthetic rubber was produced at approximately 15.1 million tons that year, only 2 million tons more than in 2010.
+The current challenges in natural rubber include the fact that approximately 85\% of the natural rubber supply is reliant on smallholder farming systems.
 
-Global production illustrates both maturity and constraint: in 2019, natural rubber production was about 13.6 million tonnes,
-approaching the roughly 15.1 million tons produced from synthetic rubber sources,
-and around 85\% of natural rubber supply is linked to smallholder farming systems.
-These are strengths for resilience and livelihoods, but they also create bottlenecks for quality consistency, supply stability, and rapid capacity expansion,
-especially when weather, disease pressure, and price volatility intersect with rising demand from transportation and infrastructure.
+Additionally, only 7\% of the global land area is dedicated to natural rubber production, and water depletion during collection and processing has placed smallholder farmers at a disadvantage.
+Nap et al.\ (2025) highlight that approximately 90\% of the world's natural rubber production is concentrated in Southeast Asia, which presents considerable geopolitical and biological risks.
+A significant concern is the potential introduction of South American Leaf Blight (\emph{Pseudocercospora ulei}) into Asian plantations, which could jeopardize global supply given the limited genetic diversity of commercial cultivars.
+Price collapses, such as those experienced after 2012, diminish incomes for smallholders, often leading them to abandon their plantations or switch to alternative crops.
+The COVID-19 pandemic further intensified this issue, resulting in unharvested latex.
+Moreover, rubber trees require about seven years to mature, which complicates rapid supply adjustments in response to shifts in demand.
+This situation perpetuates a boom-and-bust cycle for farming communities and creates instability for downstream industries.
 
-Feedstock diversification is the practical hedge against those bottlenecks.
-\emph{Hevea} is geographically constrained to tropical regions and has biological vulnerabilities,
-so alternative latex crops such as guayule (\emph{Parthenium argentatum}) and rubber dandelion (\emph{Taraxacum koksaghyz}) are being developed as temperate-zone sources that can enable domestic supply chains and reduce exposure to regional shocks.
-These crops also open application niches, including hypoallergenic latex options,
-while advances in extraction and purification using tailored flocculants, chelators, and process control are improving yield and consistency.
+Feedstock diversification serves as a practical hedge against potential bottlenecks in the rubber supply chain.
+\emph{Hevea}, the primary source of natural rubber, is restricted to tropical regions and faces various biological vulnerabilities.
+To mitigate these challenges, alternative latex crops, such as guayule (\emph{Parthenium argentatum}) and rubber dandelion (\emph{Taraxacum kok-saghyz}, or TKS), are being developed for temperate and arid climates.
+Rasutis et al.\ (2015) highlight guayule's suitability for water-stressed areas such as the U.S. Southwest, as it is a low-input shrub that can thrive on marginal lands unsuitable for food crops, thereby avoiding direct competition with food security.
+In a similar vein, Nap et al.\ (2025) recognize TKS as a scalable alternative for temperate regions, notable for its rapid harvest cycles.
+Importantly, TKS functions as a dual-purpose crop, producing both natural rubber and inulin, a valuable carbohydrate for green chemistry applications, significantly enhancing its economic viability and contributing to a circular economy model.
+These alternative crops aim to establish domestic supply chains and reduce vulnerability to regional disruptions.
+They also create opportunities for niche applications, including hypoallergenic latex options.
+Advances in extraction and purification techniques utilizing tailored flocculants, chelators, and process control are improving yield and consistency.
+The implications for the circular economy extend beyond merely increasing rubber production; they involve designing a supply chain that integrates renewable feedstocks, preservation chemistry, colloidal stability, and end-of-life strategies.
+In \ac{NRL} systems, innovations such as ammonia-free preservation and enhanced control of dispersion chemistry are pivotal technologies that impact shelf life, processability, and worker safety, ultimately determining whether renewable elastomers can meet the demands of modern manufacturing at scale.
 
 
 \section{Emerging Technological Interest}
 \label{sec:emerging-tech}
 
 Natural materials often exhibit extraordinary performance because their hierarchical structures and compositions were honed through evolution.
-In the specific case of elastomeric biopolymers, \ac{NRL} serves as a prime example of this complexity,
-containing approximately 94\% \emph{cis}-1,4-polyisoprene and 6\% non-rubber components such as proteins and lipids.
-Historically, industrial standardization viewed these biological residues as impurities to be removed,
-yet they are actually critical engineering variables that link polymer chains to form a naturally reinforced network.
-These components endow the material with ``green strength'' and the ability to strain-crystallize,
-properties that synthetic analogues struggle to replicate.
+In the case of elastomeric biopolymers, \ac{NRL} is a prime example of this complexity, containing approximately 94\% \emph{cis}-1,4-polyisoprene and 6\% non-rubber components, such as proteins and lipids.
+Historically, industrial standardization viewed biological residues as impurities rather than critical engineering elements.
+These components link polymer chains to create a naturally reinforced network, providing ``green strength'' and strain-crystallization properties.
+As a result, NR is fatigue-resistant and crack-tolerant, unlike many synthetic materials.
+By treating these biological interfaces as functional assets, engineers can reverse-engineer nature's molecular architecture, leading to the development of bioadhesives and resins with high toughness and biocompatibility.
+This approach demonstrates that high-performance materials are best achieved by mimicking nature's functional complexity rather than simplifying its chemistry.
 
-Progressive processing is where the circular story either becomes real or stays a slogan.
-In elastomer processing, mastication is the classic ``make it processable'' step,
-and it works by mechanically cleaving chains to reduce viscosity.
-The cost is irreversible chain scission that throws away the very long-chain physics that gives natural rubber its fatigue resistance and crack tolerance.
-Quantitatively, natural rubber from latex has a number-average molecular weight around 300~kg/mol,
-corresponding to roughly 4,400 repeat units per chain, while mastication can degrade chains to roughly 440 repeat units per chain,
-which then requires higher crosslink densities to obtain usable networks.
-That is the mastication paradox: you gain flow, but you pay with shorter strands, lower damage tolerance, and less ``room'' for \ac{SIC} to do its job.
+In elastomer processing, mastication is the classic ``make it processable'' step, which mechanically cleaves chains to reduce viscosity.
+The cost is irreversible chain scission, which destroys the very long chains that give natural rubber its fatigue resistance and crack tolerance.
+Quantitatively, natural rubber from latex has a number-average molecular weight around 300~kg/mol, corresponding to roughly 4,400 repeat units per chain, whereas mastication can degrade chains to roughly 440 repeat units per chain, requiring higher crosslink densities to obtain usable networks.
+That is, the mastication paradox yields sufficient mixing but at the cost of reduced damage tolerance and less ``room'' for strain-induced crystallization.
+
+The proposed solution is to use plasticizers and process oils, which often extend the processing window by lowering viscosity; however, they can significantly contribute to life-cycle impacts, particularly when derived from petrochemicals.
+This complexity can further hinder end-of-life recovery due to the increased formulation intricacy.
+Secondly, latex preservation practices and storage history introduce time-dependent degradation of the polymer chain, driven by volatile alkaline stabilizers such as ammonia, which create both occupational hazards and emissions challenges.
+Extended storage can lead to chain scission and interfacial reorganization, diminishing performance even before the material is transformed into a part.
+Collectively, these factors shift the focus from simply making materials processable to making them degradable, additively loaded, and time-sensitive.
+The next-generation colloid-enabled and ammonia-free methods avoid some of those processing concerns.
+Innovative approaches are redefining the notion that degradation is an inevitable trade-off for manufacturability.
+By embracing low-intensity mixing, emulsion and colloid-enabled network formation, and preservation chemistries that maintain the integrity of the protein--lipid interface and long-chain entanglements, these methods also offer ammonia-free alternatives that mitigate the occupational and environmental risks associated with volatile, caustic stabilizers.
 
 The successful preservation of these intrinsic molecular properties directly unlocks advanced capabilities in \ac{AM}.
-A major limitation in printing high-performance elastomers is the ``operational viscosity paradox,'' where the long polymer chains needed for strength create a resin too thick to print.
+A major limitation in printing high-performance elastomers is the ``operational viscosity paradox,'' in which the long polymer chains needed for strength make the resin too thick to print.
 However, by utilizing the preserved colloidal structure of \ac{NRL}, it is possible to maintain ultra-high molecular weights within discrete particles while keeping the bulk viscosity low, akin to flowing water.
-This synergy between living feedstocks and robotic control grants engineers an unprecedented degree of freedom to design responsive, hierarchical materials.
+This integrity allows AM techniques to move beyond simple geometric shaping to true microstructural programming.
+Innovations such as rotational 3D printing can precisely control fiber orientation within a filament, mimicking natural architectures like the Bouligand structures found in arthropod shells to optimize fracture resistance.
+This interaction between living feedstocks and robotic control grants engineers unprecedented freedom to design responsive, hierarchical materials.
+By aligning the circular biology of renewable polymers with the geometric precision of AM, manufacturing can achieve sustainability and high performance as mutually reinforcing outcomes rather than competing goals.
 
 
 \section{Problem Statement and Research Motivation}
@@ -135,77 +152,55 @@ This synergy between living feedstocks and robotic control grants engineers an u
 \subsection{Preservation Chemistry}
 \label{subsec:preservation-chemistry}
 
-Fresh natural rubber latex is a reactive biological colloid, so it will not stay ``liquid and usable'' on its own.
-After tapping, microbial growth and enzyme-driven chemistry shift the serum conditions, destabilize the rubber particle interface, and trigger spontaneous coagulation and putrefaction, which makes the latex malodorous and unprocessable.
-Preservation is therefore a logistics requirement, not an optional additive, because it must keep latex stable during storage, transport, and downstream conversion.
+Fresh \ac{NRL} is a reactive biological colloid, not a stable commodity fluid.
+After tapping, microbial activity and enzyme-driven changes alter serum chemistry, weaken the rubber-particle interphase, and can trigger acidification, odor, and spontaneous coagulation, making latex unprocessable without intervention.
+Preservation is therefore a logistics requirement; it must maintain colloidal stability during storage, transport, and conversion.
+The historical solution is alkaline ammoniation, in which elevated pH suppresses microbial growth and stabilizes particles primarily through electrostatic repulsion, often supported by secondary stabilizers such as zinc oxide (ZnO) and thiuram-type systems.
+However, those approaches carry escalating technical and sustainability impacts; for example, ammonia is volatile and hazardous, increases effluent and neutralization burdens, disproportionate challenge for smallholder processing, can discolor latex and accelerate equipment corrosion, reduces the overall molecular weight of NR, and thiuram chemistry can form nitrosamine hazards at elevated processing temperatures.
+Beyond safety and emissions, preservation chemistry can also modify the very ``functional impurities'' that differentiate \ac{NRL} from synthetic elastomers.
+Disruption of lutoids, phospholipid membranes, and protein structure can alter the non-rubber fraction and the physics of interfaces that govern processability and end-use performance.
+Even when ammoniated, practical shelf life is typically months, not years, creating additional time-dependent degradation and performance variability.
 
-The historical solution is alkaline preservation, where ammonia raises pH to suppress microbial activity while also stabilizing rubber particles through electrostatic repulsion, often with secondary stabilizers such as zinc oxide and TMTD.
-The engineering and environmental cost of this approach is now hard to ignore: ammonia is volatile and hazardous to handle, it drives wastewater constraints that smallholders struggle to manage, and its high alkalinity can discolor latex, corrode equipment, and add downstream neutralization burden.
-Meanwhile, TMTD can generate carcinogenic nitrosamines under high-temperature processing.
+An ideal preservative for \ac{NRL}, therefore, has a clear technical job description.
+It must inhibit microbial growth strongly enough to prevent acidification and putrefaction; it must maintain colloidal stability by increasing surface charge and electrokinetic potential while supporting steric hydration at the particle interface; it must control trace multivalent ions through sequestration or precipitation because these ions can reduce stability and also support microbial activity.
+It must also be non-volatile, low-toxicity, and easy to handle; avoid discoloration and odor; minimize corrosion and effluent burden; remain compatible with established concentration and coagulation steps; and, critically, preserve the native protein--lipid interphase and molecular integrity that govern downstream mechanical performance and processing behavior.
 
-An ideal preservative for \ac{NRL}, therefore, has a clear technical job description:
-\begin{itemize}
-    \item Inhibit microbial growth strongly enough to prevent acidification and putrefaction
-    \item Maintain colloidal stability by increasing surface charge and electrokinetic potential
-    \item Control trace multivalent ions through sequestration or precipitation
-    \item Be non-volatile, low-toxicity, and easy to handle
-    \item Avoid discoloration and odor
-    \item Minimize corrosion and effluent burden
-    \item Remain compatible with established concentration and coagulation steps
-    \item Preserve the native protein--lipid interphase and molecular integrity
-\end{itemize}
+\subsection{Preservation-Aware Framework for Structure--Property Relations}
+\label{subsec:preservation-framework}
 
-
-\subsection{Processing Challenges: The Gap Between Microstructure and Macroscopic Flow}
-\label{subsec:processing-challenges}
-
-The central motivation for this research is the critical need to bridge the disconnect between the microscopic properties of \ac{NRL} and its macroscopic processability.
-\ac{NRL} is not a simple fluid, but a sophisticated colloidal suspension of polyisoprene particles modified by a complex interface of proteins and lipids.
-Key processing parameters, including viscosity, yield stress, thixotropy, and post-shear recovery, are intrinsically governed by the arrangement and interaction of these particles.
-However, to engineer high-performance adhesives or 3D printing inks, we must move beyond empirical observations to predictive models that correlate these structural characteristics with rheological behavior.
-
-Current theoretical frameworks are insufficient for this task.
-Existing models for complex sphere suspensions describe how relative viscosity diverges near maximum packing and explain shear thickening via hydrodynamic clustering, but they fail to address the unique complexities of deformable, core-shell rubber particles.
-At high volume fractions, hydrodynamic lubrication becomes dominant, requiring models that incorporate both colloidal forces (hydrodynamic drag, Brownian motion, electrostatic repulsion) and the elastic properties of the polymer core.
-
-
-\subsection{Deficiency of Models and the Need for Standardization}
-\label{subsec:model-deficiency}
-
-This theoretical gap is compounded by practical processing constraints and a historical bias in the available data.
-Industrial processing is increasingly constrained by stringent regulations, such as the OSHA 8-hour ammonia emission limit (50~ppm), which necessitates a shift toward alternative preservation chemistries.
-However, switching preservatives fundamentally alters the physical properties of the latex, including surface charge density, protein conformation, and mechanical and thermal behavior.
-Current rheological models are ``conservative'' in that they are calibrated almost exclusively on ammoniated \emph{Hevea} latex or synthetic systems, meaning our foundational knowledge is biased toward a material standard that is becoming obsolete.
-
-Furthermore, these models overlook critical biological variations, such as the distinct particle size distributions observed in alternative species: Guayule (0.44--2~$\mu$m) and Dandelion (0.35~$\mu$m),
-which differ significantly from those of \emph{Hevea}.
-To address this, we must benchmark \ac{NRL} across different conditions to build a unified classification framework based on:
-\begin{enumerate}
-    \item[(I)] \textbf{Origin}: Hevea, Guayule, Dandelion
-    \item[(II)] \textbf{Preservation System}: High/Low Ammonia, TMTD, Acid-Surfactant
-    \item[(III)] \textbf{Quantifiable Properties}: Particle Size Distribution, Solids Content, Molecular Weight
-\end{enumerate}
+\ac{NRL} operational properties like viscosity, yield stress, thixotropy, and molecular weight are governed by particle-scale organization and interparticle interactions mediated by the protein--lipid interphase.
+Because direct imaging of concentrated latex is limited, rheology is the practical proxy for microstructure.
+Experimental techniques like flow sweeps and oscillatory measurements allow inference of aggregation, network formation, and crowding as the solids content increases.
+The problem is that existing structure--rheology frameworks are not preservation-aware.
+Most models and calibration datasets implicitly assume ammoniated Hevea latex or synthetic analogs, creating a foundational bias toward a material standard that is increasingly misaligned with emerging needs like ammonia-free systems, alternative crops, and tighter environmental constraints.
+Switching preservative systems can change surface charge density, hydration layers, protein conformation, and even molecular integrity---it introduces a domain shift that causes ``foreign'' rheology and unstable processing that current models cannot reliably predict.
+For example, the distinct particle-size distributions observed in alternative species, such as Guayule (0.44--2~$\mu$m) and Dandelion (0.35~$\mu$m), which differ significantly from those of Hevea and interface chemistries, further challenge assumptions embedded in Hevea-centric models.
+Standardizing these metrics will facilitate comparative studies and enable the development of generalized models to predict how specific preservation chemistries affect maximum packing fraction and viscosity.
+This approach shifts the industry from trial-and-error formulations to a scientifically grounded screening process for biodiverse and sustainable rubber supply chains.
 
 
 \section{Research Objectives and Scope}
 \label{sec:objectives}
 
-\subsection{Core Problem}
-\label{subsec:core-problem}
+\subsection{Primary Objectives}
+\label{subsec:primary-objectives}
 
-Natural rubber latex is processed and modeled largely through the lens of ammonia-preserved systems.
-As the field moves toward safer, low-to-zero ammonia preservation, latex behaves like a different material class because preservation chemistry alters the particle interface, non-rubber constituents, and network formation.
-The result is a gap: we do not yet have a unified structure-rheology-processability framework that spans preservation conditions, so engineering choices become trial-and-error, and advanced manufacturing routes remain underexploited.
+Natural rubber latex is mainly processed in ammonia-preserved systems, but there is a shift toward safer, low- or zero-ammonia methods.
+This transition alters the latex's behavior, as preservation chemistry affects particle interfaces and network formation.
+Currently, we lack a unified framework to connect structure, rheology, and processability across different preservation conditions.
+This results in reliance on trial and error in engineering decisions and underutilization of advanced manufacturing methods.
+To tackle these issues, this thesis aims to develop preservation strategies that improve shelf stability without volatile stabilizers while minimizing toxicity.
+Additionally, create a benchmarking framework linking measurable latex attributes to its processability across various sources and preservation systems.
 
-\subsection{Research Objective and Scope}
+\subsection{Research Scope}
 \label{subsec:research-scope}
 
 This thesis builds a preservation-aware framework that links measurable microstructure and chemistry to rheology and manufacturability, then uses that understanding to enable sustainable processing routes, including photocurable latex systems for additive manufacturing.
 
 \begin{description}
-    \item[Objective 1:] Map how preservation chemistry reshapes flow and microstructure
-    \item[Objective 2:] Identify preservation-dependent chemical and dynamical signatures using high-sensitivity NMR
-    \item[Objective 3:] Translate preserved latex into manufacturable, photocurable feedstocks for additive manufacturing
+    \item[Aim 1:] Map how preservation chemistry reshapes flow and microstructure
+    \item[Aim 2:] Identify preservation-dependent chemical and dynamical signatures using high-sensitivity NMR
+    \item[Aim 3:] Translate preserved latex into manufacturable, photocurable feedstocks for additive manufacturing
 \end{description}
 
 
