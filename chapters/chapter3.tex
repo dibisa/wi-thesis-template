@@ -141,6 +141,16 @@ Approximately 1~mL of latex was loaded for each test.
 \end{enumerate}
 
 
+\subsection{Computational Fluid Dynamics}
+\label{subsec:cfd}
+
+Taylor--Couette measurements and simplified two-phase-flow interpretation.
+At higher volume fractions where parallel-plate testing can be affected by wall slip and particle migration, a Taylor--Couette (concentric cylinder) geometry was used to provide more reliable high-$\phi$ measurements.
+The inner cylinder radius was 0.64~cm, and the outer cylinder radius was 2.54~cm; the inner cylinder rotated at a fixed 55~rpm while the outer cylinder remained stationary.
+To interpret concentration nonuniformity and migration trends observed in Couette flow, a simplified two-phase (suspension balance) framework was used: the mixture flow field is solved with no-slip at the walls, and the particle phase is allowed to redistribute via a concentration-transport equation that captures shear-induced migration and buoyancy/settling effects.
+This modeling was used as an interpretive tool to confirm that observed viscosity changes with $\phi$ are consistent with expected migration/stability behavior in Couette flow and to support attributing trends to intrinsic particle/serum effects rather than measurement artifacts.
+
+
 \subsection{Rheology Interpretation Framework}
 \label{subsec:rheology-framework}
 
@@ -184,6 +194,36 @@ To capture the experimentally observed sharper upturn near $\phi_c$ in preserved
 \end{equation}
 where $a$ and $b$ are empirical fit parameters.
 Here, $a$ controls how rapidly the additional thickening accelerates, while $b$ sets its baseline magnitude.
+
+
+\subsection{Addressing Measurement Challenges and Micro-Level Effects}
+\label{subsec:measurement-challenges}
+
+A rotational rheometer does not measure viscosity directly; it measures torque $M$ and angular velocity $\Omega$, from which shear stress $\tau$, shear rate $\dot{\gamma}$, and apparent viscosity $\eta_{\text{app}}$ are inferred via geometry-dependent factors $K_\tau$ and $K_\gamma$ obtained by solving the Navier--Stokes equations under idealized conditions.
+In compact form:
+\begin{equation}
+    \tau = K_\tau M, \quad \dot{\gamma} = K_\gamma \Omega, \quad \eta_{\text{app}} = \frac{\tau}{\dot{\gamma}} = \frac{K_\tau}{K_\gamma} \frac{M}{\Omega}
+    \label{eq:rheometer-relations}
+\end{equation}
+
+These relations are only valid if three physical assumptions hold:
+\begin{enumerate}[label=(\roman*)]
+    \item no slip at the walls ($v_{\text{fluid}} = v_{\text{wall}}$),
+    \item homogeneity across the gap ($\phi$ and hence $\eta$ independent of position),
+    \item laminar simple shear without secondary flows.
+\end{enumerate}
+
+In concentrated \ac{NRL}, all three are easily violated.
+Depletion layers at smooth tools create wall slip, so only a thin solvent-rich layer is actually sheared; the instrument overestimates $\dot{\gamma}$ and underestimates $\eta$.
+Shear-induced migration in geometries with strong shear-rate gradients (parallel plate, wide-gap Couette) drives particles from high-shear to low-shear regions, generating a spatially varying $\phi(\mathbf{r})$ and a torque that is a nontrivial average over a heterogeneous microstructure.
+At higher rotational speeds in cylindrical geometries, inertial instabilities (Taylor vortices, wavy vortices) add an extra, non-constitutive contribution to the torque, which appears as artificial shear thickening if interpreted with the simple $\eta \propto M/\Omega$ relation.
+
+Mitigation, therefore, combines experimental design and analytical correction to keep the inferred viscosity as close as possible to the true constitutive response.
+Wall slip is minimized by using serrated or sand-blasted tools to mechanically couple the bulk to the walls; when unavoidable slip remains, measurements across multiple gaps are analyzed using Mooney-type constructions to estimate slip velocity and correct the true shear rate.
+Shear-induced migration is reduced at the source by choosing geometries with nearly uniform shear (small-angle cone-and-plate, narrow-gap Couette) and by limiting measurement times at high shear so that strong concentration gradients do not fully develop.
+When gradients are expected, the data are interpreted within a suspension-balance or two-phase framework, where particle fluxes driven by $\nabla\dot{\gamma}$ and $\nabla\phi$ are coupled to a local viscosity $\eta(\phi)$ to rationalize deviations from ideal behavior.
+Finally, flow instabilities are avoided by operating below the critical Taylor/Reynolds numbers for the chosen gap-to-radius ratio, and by favoring narrow-gap or outer-rotating Couette configurations that delay the onset of vortices.
+Together, these strategies ensure that the reported \ac{NRL} viscosities and fitted constitutive parameters reflect microstructure-controlled material properties rather than artifacts of migration, slip, or inertial flow.
 
 
 \section{Nuclear Magnetic Resonance (NMR)}
@@ -348,6 +388,63 @@ For DEPRs, the gap was reduced to 0.2~mm to ensure uniform UV intensity across t
 \end{enumerate}
 
 
+\subsection{Indirect Manufacturing of Tensile Testing Specimens for UV-Curable Latex-Scaffold Coalescence}
+\label{subsec:indirect-manufacturing}
+
+In the fabrication of dogbone-shaped specimens using UV-curable natural rubber latex (\ac{NRL}), a setup inspired by traditional top-down geometric configuration VAT was utilized.
+Initially, injection-molded ASTM D412 Die C shapes made from high-density polyethylene were used as molds for thermoforming PET sheets.
+After softening the sheets sufficiently, the dogbone shapes were formed using the injection-molded Die C molds.
+A light source was prepared using an Omniture S2000 high-pressure mercury light guide, which was positioned 10~mm above the mold.
+UV-curable \ac{NRL} was applied layer by layer using a 3~mL syringe, following a bottom thin layer method to minimize air bubbles in the PET mold.
+Each layer was cured under UV light for 30~seconds, and samples were prepared for two intensities: 18 and 30~mW/cm$^2$.
+This layering process was repeated until five layers were added to each specimen, resulting in precisely fabricated samples for mechanical and viscoelastic characterization.
+
+After the indirect 3D printing process, the specimens underwent several treatments to enhance their mechanical integrity and stability.
+First, they were soaked in isopropyl alcohol for 30~minutes to remove any residual uncured resin.
+Next, they were exposed to low-intensity UV light for 10~minutes from a Black-Ray UV bench lamp (365~nm, 115~V--60~Hz) with an intensity of approximately 10--15~mW/cm$^2$ to further harden the material.
+Finally, the samples were placed in an Isotemp vacuum oven (Model 282A) at 65°C and 30~mmHg for 10~hours to ensure dehydration.
+Throughout this process, the weight loss of the specimens was monitored before and after processing to maintain consistency in the material properties.
+
+
+\subsection{Fabrication of Jammed Microreinforced Elastomers (JMRE) and Controls}
+\label{subsec:jmre-fabrication}
+
+A two-stage curing process (UV irradiation followed by thermal treatment) was employed to transform liquid DEPR into solid, jammed, micro-reinforced elastomers (JMRE).
+This nomenclature reflects the transition from a jammed micro-emulsion state to a reinforced elastomeric composite.
+
+\begin{enumerate}[label=\Roman*.]
+    \item \textbf{UV-Curing and specimen molding}: To prepare mechanical test specimens, custom molds were fabricated by casting translucent tin-cure silicone (Smooth-On, Macungie, USA) against 3D-printed masters (ASTM D638 Type V dogbone geometry for tensile tests; flat sheets for fracture/puncture tests).
+    The liquid DEPR was cast into the silicone molds and exposed to UV irradiation (30~mW$^{-2}$) using an OmniCure S200 Elite system.
+    This step locked the photoresin phase (PRE) into a rigid porous scaffold, establishing the green composite structure.
+    
+    \item \textbf{Thermal treatment and latex coalescence}: Immediately following UV curing, the specimens were demolded and transferred to a dehydrator/vacuum oven.
+    This step removed residual water and induced osmotic destabilization, thereby forcing the close-packed rubber particles to coalesce within the photoresin scaffold.
+    The samples were then thermally cured at 70°C overnight to ensure complete formation of the latex film.
+    Demolding before thermal treatment was critical to minimize shrinkage-induced stress and prevent warping due to thermal expansion mismatches.
+    
+    \item \textbf{Preparation of control samples}: Control samples of pure porous photoresin were prepared by UV-curing the PRE (25~wt\% stock) under identical conditions.
+    Pure natural rubber (NR) controls were prepared by casting the \ac{NRL} into molds and chemically coagulating the surface with alcohol to induce a weak gel state similar to the jammed DEPR precursor.
+    These gelled NR samples were then subjected to the same 70°C thermal treatment to ensure a comparable thermal history and diffusion profile.
+\end{enumerate}
+
+
+\subsection{Morphological Characterization (SEM)}
+\label{subsec:sem}
+
+Surface and cross-sectional morphologies were examined using a Gemini SEM 450 (Zeiss, Germany).
+The microscope was operated at an accelerating voltage of 3.00~kV with a working distance of $\sim$9.2~mm to minimize beam damage and charging on the polymeric samples.
+
+\begin{enumerate}[label=\Roman*.]
+    \item \textbf{Porous photoresin scaffolds}: Porous PR samples were mounted by pressing aluminum stubs equipped with double-sided conductive carbon tape directly onto the sample surface to preserve the native porous architecture.
+    
+    \item \textbf{JMRE samples}: To analyze the internal microstructure and failure mechanisms, imaging was performed on the fracture surfaces of specimens recovered after tensile testing.
+    
+    \item \textbf{Sputter coating}: Before imaging, samples were sputter-coated with a finer-grained Platinum coating to visualize the tiny pores without introducing artificial roughness.
+    With the JMRE, given that the fracture surface is rough and macroscopic relative to pores, conventional gold was sufficient for electrical conductivity using a Leica EM ACE600 high-vacuum coater.
+    To mitigate charging effects on the rough fracture surfaces, the coating thickness was optimized to 10~nm for the JMRE composites, while a 5~nm layer was applied to the porous PR samples to prevent obscuring fine pore details.
+\end{enumerate}
+
+
 \section{Mechanical Characterizations}
 \label{sec:mechanical-testing}
 
@@ -408,6 +505,20 @@ An 18-gauge sharp cylindrical needle (tip radius $\approx$ 0.2~mm) was driven at
 Force--displacement curves were recorded continuously to quantify puncture resistance.
 
 
+\subsection{Compression of 3D-Printed Scaffolds}
+\label{subsec:compression-tests}
+
+Uniaxial compression tests were performed on a 3D-printed gyroid scaffold to assess recovery and densification.
+The gyroid was printed from a TMPTA/NRL (42/58~wt\%) DEPR ink with Tartrazine dye.
+Tests were conducted at room temperature (50~N load cell, 50~mm~min$^{-1}$) using two protocols.
+Each printed part with dimensions of $10.94 \times 10.94 \times 12.94$~mm was tested under two compression protocols:
+\begin{enumerate}[label=\alph*)]
+    \item \textbf{Cyclic durability}: 1,000 loading--unloading cycles at 20\% compressive strain.
+    \item \textbf{Step-recovery}: Step-cyclic compression to maximum strain of 25, 50, 75\% strain, with complete unloading between steps to allow recovery.
+    Finally, samples were compressed to densification ($>$86\% strain) to determine the ultimate compressive strength.
+\end{enumerate}
+
+
 \section{DLP 3D Printing}
 \label{sec:dlp-printing}
 
@@ -433,6 +544,42 @@ The emulsion photoresin was dispensed into the gap and spread to obtain a latera
 The assembly was then exposed to UV light for a prescribed time under the same wavelength and irradiance conditions used for printing (385~nm; 7.7~mW~cm$^{-2}$).
 After exposure, the top glass slide was removed, and uncured resin was gently wiped off.
 The thickness of the cured film was measured at three locations using a digital caliper, and the average value was reported as the curing depth.
+
+
+\subsection{Resolution and Geometric Fidelity Characterization}
+\label{subsec:resolution-characterization}
+
+Printing resolution was evaluated using a custom-designed test stage fabricated from ABS.
+The emulsion photoresin was evenly coated onto the exposure region of the stage to form a thin, uniform resin layer.
+A radial spoke test pattern was projected and exposed for 6~min under the same UV conditions as above.
+After exposure, the specimen was gently rinsed with deionized (DI) water to carefully remove uncured resin and avoid mechanical damage to the cured features.
+The printed petal geometry was then imaged, and the petal opening angle of individual petals was measured and compared with the corresponding digital model.
+The ratio between the angular size ($\theta$) of the printed part and the CAD design ($\theta_0$) was used as a metric to quantify geometric fidelity.
+
+
+\subsection{Dip-Coating Fabrication and Pneumatic Inflation}
+\label{subsec:dip-coating}
+
+To demonstrate the material's processing versatility, complex geometries were fabricated via dip-coating.
+An industrial-grade dip mold (ceramic or aluminum) was immersed in the liquid dual emulsion for 5~s.
+Upon removal, the coated layer was cured under UV light (30~mW$\cdot$cm$^{-2}$).
+To build sufficient wall thickness for handling, this dip-cure cycle was repeated four additional times (five layers total).
+Finally, the multilayered sample was dehydrated at 70°C overnight to promote latex coagulation and film formation.
+
+The toughness and flexibility of the dip-coated samples were qualitatively assessed via a pneumatic inflation test.
+A cured, dip-coated balloon specimen was connected to a compressed-air line within a fume hood.
+A standard pipette discharge tip was utilized as a capillary adaptor to interface the sample with the air supply.
+The sample was successfully inflated using compressed air, demonstrating the material's ability to undergo significant deformation without rupture.
+
+
+\subsection{High-Volume--Low-Pressure Spray-Coating and Hydrophobicity Demonstration}
+\label{subsec:hvlp-spray}
+
+To demonstrate the processability and versatility of the dual-emulsion, a high-volume, low-pressure (HVLP) spray-coating protocol was applied to diverse substrates, including silicone elastomers, polyethylene discs, polycarbonate films, and a porous almond cake model.
+Prior to application, the formulation (containing 25~wt\% photoresin and 0.05~wt\% Tartrazine dye) was verified to have a viscosity $<$40~DIN-seconds, allowing direct atomization without solvent thinning using a Slikwave CN-7000 sprayer fitted with a 1.2~mm nozzle.
+Spray coating was performed using an electric HVLP paint sprayer (Suzhou ChengZi, China).
+The emulsion was sprayed onto the substrates using a horizontal fan pattern at a working distance of 15--20~cm and a traverse speed of 10~cm~s$^{-1}$ with 50\% overlap, followed by ambient drying for 30~minutes and UV curing for 10~minutes to crosslink the TMPTA phase.
+The robustness of the resulting hydrophobic barrier was validated via an immersion stress test, where a coated almond cake subjected to stirring at $\sim$400~rpm in deionized water retained its structural integrity and yellow coloration after 4.5~minutes, whereas the uncoated control disintegrated; this confirmed the coating's ability to provide water resistance and dye retention across materials with varying surface energies and porosities.
 
 
 \subsection{Gel Permeation Chromatography (GPC)}

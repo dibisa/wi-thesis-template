@@ -27,9 +27,18 @@ Elastomers can be classified into two categories based on cross-linking: chemica
 These materials are characterized by their unique mechanical properties, such as hardness, tensile strength, toughness, and strain stress source flexibility, demonstrating hyper-elasticity with substantial recoverable strain under low-stress conditions.
 Elastomers include natural rubber, silicone rubber, and synthetic organic rubbers like \ac{SBR}, nitrile rubber, and polyurethanes.
 
+% TODO: Add figure when image file is available
+% \begin{figure}[htbp]
+% \centering
+% \includegraphics[width=\textwidth]{media/image1.png}
+% \caption{(Left) Stress-strain behavior of different types of polymers. (Right) Comparison of the mechanical properties of 3 different forms of rubber.}
+% \label{fig:polymer-stress-strain}
+% \end{figure}
+
 The stress-strain behavior of rubber has been further explained using theoretical models that account for its elastic properties.
 For example, the neo-Hookean model, derived from statistical mechanics, describes the stress-strain behavior of rubber at moderate strains by assuming an ideal elastomer with a network of cross-linked polymer chains, each behaving like a Gaussian chain, with elasticity driven by entropy.
 The Mooney-Rivlin model extends this by considering the second invariants of the deformation tensor, providing a strain energy function that better fits experimental data over a broader range of strains.
+Additionally, models that account for the limiting extensibility of polymer chains, such as the one with a strain energy function incorporating a constant related to the maximum possible extension of the network chains, are particularly useful for describing rubber's behavior at very high strains, where the neo-Hookean and Mooney-Rivlin models may fail.
 
 In elastomers, elasticity is driven by thermodynamics, in which the restoring force during stretching is related to entropy changes rather than to internal energy.
 When rubber is stretched, polymer chains become more ordered, thereby decreasing entropy; upon stress release, they return to a disordered state, thereby increasing entropy.
@@ -39,6 +48,10 @@ The free energy change during deformation links to the entropy change via the eq
     \label{eq:free-energy}
 \end{equation}
 where $T$ is temperature, $\Delta S$ is entropy, and $\Delta F$ (force) is proportional to the negative gradient of free energy with respect to deformation.
+A flexible polymer chain has many configurations; stretching reduces these, lowering entropy.
+The force to stretch the chain comes from molecular thermal motion, which seeks to maximize entropy.
+This explains rubber elasticity through conformational entropy changes, but does not account for physical failure mechanisms such as bond rupture.
+However, a simulation study suggests that significant enthalpic chain stretching occurs before tensile failure.
 
 \subsection{Natural Rubber Latex}
 \label{subsec:nrl}

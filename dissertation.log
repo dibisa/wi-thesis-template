@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.26)  28 JAN 2026 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.26)  5 FEB 2026 09:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1277,66 +1277,66 @@ Overfull \hbox (5.7432pt too wide) in paragraph at lines 26--29
 
 
 ] [12]
-Overfull \hbox (5.7124pt too wide) in paragraph at lines 50--54
+Overfull \hbox (5.7124pt too wide) in paragraph at lines 63--67
 \LY1/qpl/m/n/12 (-20) rophos-phate (DMAPP) through ei-ther the meval-onate (MVA) or methylery-
  []
 
 [13]
-Overfull \hbox (0.10266pt too wide) in paragraph at lines 74--75
+Overfull \hbox (0.10266pt too wide) in paragraph at lines 87--88
 []\LY1/qpl/b/n/12 (-20) HTT (sym-triazine deriva-tive) \LY1/qpl/m/n/12 (-20) ef-fec-tively pre-serves la-tex for months
  []
 
-[14]
+[14] [15]
 Package acronym Info: Label `acro:FTIR' newly defined as it shall be overridden
-although it is yet undefined on input line 94.
+although it is yet undefined on input line 107.
 Package acronym Info: Label `acro:NMR' newly defined as it shall be overridden
-although it is yet undefined on input line 94.
- [15] [16] [17] [18] [19] [20]
+although it is yet undefined on input line 107.
+ [16] [17] [18] [19] [20] [21]
 Package acronym Info: Label `acro:DLVO' newly defined as it shall be overridden
-although it is yet undefined on input line 196.
- [21] [22] [23]
+although it is yet undefined on input line 209.
+ [22] [23] [24]
 Package acronym Info: Label `acro:SDS' newly defined as it shall be overridden
-although it is yet undefined on input line 244.
- [24] [25] [26] [27]
+although it is yet undefined on input line 257.
+ [25] [26] [27]
 Package acronym Info: Label `acro:LOM' newly defined as it shall be overridden
-although it is yet undefined on input line 333.
+although it is yet undefined on input line 346.
 Package acronym Info: Label `acro:SLS' newly defined as it shall be overridden
-although it is yet undefined on input line 333.
+although it is yet undefined on input line 346.
 Package acronym Info: Label `acro:FDM' newly defined as it shall be overridden
-although it is yet undefined on input line 333.
-Package acronym Info: Label `acro:VPP' newly defined as it shall be overridden
-although it is yet undefined on input line 335.
+although it is yet undefined on input line 346.
  [28]
+Package acronym Info: Label `acro:VPP' newly defined as it shall be overridden
+although it is yet undefined on input line 348.
 Package acronym Info: Label `acro:DLP' newly defined as it shall be overridden
-although it is yet undefined on input line 341.
+although it is yet undefined on input line 354.
 
-Overfull \hbox (2.57503pt too wide) in paragraph at lines 346--347
+Overfull \hbox (2.57503pt too wide) in paragraph at lines 359--360
 []\LY1/qpl/b/n/12 (-20) Reactive dilu-ent monomers\LY1/qpl/m/n/12 (-20) : Re-duce vis-cos-ity while co-polymerizing
  []
 
-[29] [30] [31]
-Overfull \hbox (28.70213pt too wide) in paragraph at lines 372--373
+[29] [30] [31] [32]
+Overfull \hbox (28.70213pt too wide) in paragraph at lines 385--386
 \LY1/qpl/m/n/12 (-20) duced through groups such as (meth)acryloyl, thiol--ene pairs, or epoxy/oxetane
  []
 
 
-Overfull \hbox (8.32404pt too wide) in paragraph at lines 372--373
+Overfull \hbox (8.32404pt too wide) in paragraph at lines 385--386
 \LY1/qpl/m/n/12 (-20) ene step-growth path-ways, or cationic poly-mer-iza-tion, re-spec-tively. Cationic
  []
 
-[32] [33] [34] [35]) [36]
+[33] [34] [35] [36]) [37]
 \openout2 = `chapters/chapter3.aux'.
 
  (chapters/chapter3.tex
 Chapter 3.
 Package acronym Info: Label `acro:DRC' newly defined as it shall be overridden
 although it is yet undefined on input line 25.
-[37
+[38
 
 
 
 
-] [38]
+] [39]
 Overfull \hbox (5.48288pt too wide) in paragraph at lines 75--77
 \LY1/qpl/m/n/12 (-20) to-tal solids, co-ag-u-lated with 2 wt% acetic acid un-der stir-ring, washed/rolled,
  []
@@ -1355,7 +1355,7 @@ Overfull \hbox (5.13492pt too wide) in paragraph at lines 87--89
 \LY1/qpl/m/n/12 (-20) Deuterium ox-ide (D$[]$O, CAS: 7789-20-0) and deuter-ated chlo-ro-form (CDCl$[]$,
  []
 
-[39]
+[40]
 Package acronym Info: Label `acro:TMPTA' newly defined as it shall be overridden
 although it is yet undefined on input line 95.
 
@@ -1372,30 +1372,40 @@ Overfull \hbox (1.63583pt too wide) in paragraph at lines 96--97
 
 Package acronym Info: Label `acro:HDDA' newly defined as it shall be overridden
 although it is yet undefined on input line 109.
-[40] [41]
-Overfull \hbox (24.17848pt too wide) in paragraph at lines 147--148
+[41] [42]
+Overfull \hbox (24.17848pt too wide) in paragraph at lines 157--158
 \LY1/qpl/m/n/12 (-20) To in-ter-pret viscosity--shear rate data across vol-ume frac-tion $\U/zeur/m/n/12 ^^^$\LY1/qpl/m/n/12 (-20) , a microstructure-
  []
 
-[42] [43] [44]
+[43] [44] [45] [46] [47]
 Package acronym Info: Label `acro:DOSY' newly defined as it shall be overridden
-although it is yet undefined on input line 239.
- [45] [46] [47] [48] [49] [50] [51]) [52]
-pdfTeX warning (ext4): destination with the same identifier (name{page.52}) has been already used, duplicate ignored
+although it is yet undefined on input line 279.
+ [48] [49] [50] [51] [52] [53]
+Overfull \hbox (2.83919pt too wide) in paragraph at lines 425--428
+[]\LY1/qpl/b/n/12 (-20) Preparation of con-trol sam-ples\LY1/qpl/m/n/12 (-20) : Con-trol sam-ples of pure porous
+ []
+
+[54]
+Overfull \hbox (0.40909pt too wide) in paragraph at lines 438--439
+[]\LY1/qpl/b/n/12 (-20) Porous pho-toresin scaf-folds\LY1/qpl/m/n/12 (-20) : Porous PR sam-ples were mounted
+ []
+
+[55] [56] [57] [58] [59] [60]) [61]
+pdfTeX warning (ext4): destination with the same identifier (name{page.61}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.69 \begin{colophon}
-                      [52
+                      [61
 
 
-] (backmatter/colophon.tex) [53
+] (backmatter/colophon.tex) [62
 
 ] (dissertation.bbl
 bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 15.
 
-) [54
+) [63
 
 ]
 \tf@toc=\write6
@@ -1417,20 +1427,20 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: A0A9BFCD7878BC630E518FCC66C68483;5972.
+(rerunfilecheck)             Checksum: 6A76D841CD557EDF4ED9381BF048D700;5974.
  ) 
 Here is how much of TeX's memory you used:
- 20344 strings out of 467871
- 318456 string characters out of 5418376
- 787131 words of memory out of 5000000
- 48407 multiletter control sequences out of 15000+600000
- 678517 words of font info for 182 fonts, out of 8000000 for 9000
+ 20400 strings out of 467871
+ 319211 string characters out of 5418376
+ 787957 words of memory out of 5000000
+ 48421 multiletter control sequences out of 15000+600000
+ 682691 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,12n,93p,1652b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on dissertation.pdf (72 pages, 517574 bytes).
+Output written on dissertation.pdf (81 pages, 543816 bytes).
 PDF statistics:
- 940 PDF objects out of 1000 (max. 8388607)
- 296 named destinations out of 1000 (max. 500000)
- 29433 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1011 PDF objects out of 1200 (max. 8388607)
+ 326 named destinations out of 1000 (max. 500000)
+ 33529 words of extra memory for PDF output out of 35830 (max. 10000000)
 
