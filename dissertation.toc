@@ -51,44 +51,47 @@
 \contentsline {subsection}{Pre-receipt Specifications}{54}{section*.108}%
 \contentsline {subsection}{Incoming Verification}{54}{section*.113}%
 \contentsline {subsection}{Spectroscopic and Analytical Solvents}{55}{section*.116}%
-\contentsline {subsection}{Photopolymerization and Surfactant Reagents}{56}{section*.118}%
 \contentsline {section}{\numberline {3.2}Rheological Characterization}{56}{section.3.2}%
-\contentsline {subsection}{Measurement Types and Protocols}{56}{section*.122}%
-\contentsline {subsubsection}{Sample Preparation and Volume-Fraction Series}{56}{section*.123}%
-\contentsline {subsubsection}{Rotational Rheometry (Parallel Plates)}{57}{section*.124}%
-\contentsline {subsubsection}{Computational Fluid Dynamics: Taylor--Couette Measurements}{58}{section*.125}%
-\contentsline {subsection}{Rheology Interpretation Framework}{58}{section*.126}%
-\contentsline {subsection}{Predictive Viscosity Models}{60}{section*.127}%
-\contentsline {subsection}{Addressing Measurement Challenges and Micro-Level Effects}{64}{section*.128}%
-\contentsline {section}{\numberline {3.3}Nuclear Magnetic Resonance (NMR)}{66}{section.3.3}%
-\contentsline {subsection}{Overview and General Conditions}{66}{section*.129}%
-\contentsline {subsection}{Sample Preparation (Solution-State NMR)}{66}{section*.130}%
-\contentsline {subsection}{High-Resolution Solution-State NMR (1D and 2D)}{67}{section*.131}%
-\contentsline {subsection}{Diffusion-Ordered Spectroscopy (DOSY)}{68}{section*.135}%
-\contentsline {subsection}{Time-Domain NMR Relaxometry (TD-NMR)}{69}{section*.137}%
-\contentsline {subsection}{Quantification (Models Used)}{69}{section*.139}%
-\contentsline {section}{\numberline {3.4}Components and Protocols of NRL Photoresin Formulation}{70}{section.3.4}%
-\contentsline {subsection}{Preparation of the UV-Curable Latex-Scaffold Coalescence}{70}{section*.140}%
-\contentsline {subsection}{Preparation of Photoresin Emulsion (PRE)}{70}{section*.142}%
-\contentsline {subsection}{Preparation of Dual Emulsion Photoresin (DEPR)}{71}{section*.144}%
-\contentsline {subsection}{Indirect Manufacturing of Tensile Testing Specimens for UV-Curable Latex-Scaffold Coalescence}{72}{section*.147}%
-\contentsline {subsection}{Fabrication of Jammed Microreinforced Elastomers (JMRE) and Controls}{73}{section*.149}%
-\contentsline {subsection}{Dip-Coating Fabrication and Pneumatic Inflation}{74}{section*.152}%
-\contentsline {subsection}{DLP 3D Printing}{75}{section*.153}%
-\contentsline {subsection}{High-Volume--Low-Pressure Spray-Coating and Hydrophobicity Demonstration}{75}{section*.154}%
-\contentsline {section}{\numberline {3.5}Material Characterizations}{76}{section.3.5}%
-\contentsline {subsection}{Particle Size and Zeta Potential}{76}{section*.155}%
-\contentsline {subsection}{(Photo)rheology Characterizations}{77}{section*.156}%
-\contentsline {subsection}{Morphological Characterization (SEM)}{78}{section*.158}%
-\contentsline {section}{\numberline {3.6}Mechanical Characterizations}{79}{section.3.6}%
-\contentsline {subsection}{Uniaxial Tension Test}{79}{section*.160}%
-\contentsline {subsection}{Cyclic and Hysteresis Tests}{79}{section*.161}%
-\contentsline {subsection}{Fracture Energy}{80}{section*.162}%
-\contentsline {subsection}{Fractocohesive Lengths}{81}{section*.163}%
-\contentsline {subsection}{Puncture Tests}{81}{section*.164}%
-\contentsline {subsection}{Compression of 3D-Printed Scaffolds}{81}{section*.165}%
-\contentsline {subsection}{Measurement of Curing Depth}{82}{section*.166}%
-\contentsline {subsection}{Resolution and Geometric Fidelity Characterization}{82}{section*.167}%
-\contentsline {subsection}{Gel Permeation Chromatography (GPC)}{83}{section*.168}%
-\contentsline {chapter}{Colophon}{84}{chapter*.171}%
-\contentsline {chapter}{References}{85}{section*.174}%
+\contentsline {subsection}{Measurement Types and Protocols}{56}{section*.118}%
+\contentsline {subsubsection}{Sample Preparation and Volume-Fraction Series}{56}{section*.119}%
+\contentsline {subsubsection}{Rotational Rheometry (Parallel Plates)}{56}{section*.120}%
+\contentsline {subsubsection}{Computational Fluid Dynamics: Taylor--Couette Measurements}{57}{section*.121}%
+\contentsline {subsection}{Rheology Interpretation Framework: Linking Shear, Microstructure, and Volume Fraction}{58}{section*.122}%
+\contentsline {subsection}{Addressing Measurement Challenges and Micro-Level Effects}{60}{section*.123}%
+\contentsline {section}{\numberline {3.3}Nuclear Magnetic Resonance (NMR)}{61}{section.3.3}%
+\contentsline {subsection}{Overview and General Conditions}{61}{section*.124}%
+\contentsline {subsection}{Sample Preparation (Solution-State NMR)}{62}{section*.125}%
+\contentsline {subsection}{High-Resolution Solution-State NMR (1D and 2D)}{62}{section*.126}%
+\contentsline {subsection}{Diffusion-Ordered Spectroscopy (DOSY)}{63}{section*.130}%
+\contentsline {subsection}{Time-Domain NMR Relaxometry (TD-NMR)}{64}{section*.132}%
+\contentsline {subsection}{Quantification Models}{65}{section*.134}%
+\contentsline {section}{\numberline {3.4}Components and Protocols of NRL Photoresin Formulation}{65}{section.3.4}%
+\contentsline {subsection}{Preparation of the UV-Curable Latex-Scaffold Coalescence}{66}{section*.135}%
+\contentsline {subsection}{Preparation of Photoresin Emulsion (PRE)}{66}{section*.139}%
+\contentsline {subsection}{Preparation of Dual Emulsion Photoresin (DEPR)}{67}{section*.142}%
+\contentsline {subsection}{Indirect Manufacturing of Tensile Testing Specimens for UV-Curable Latex-Scaffold Coalescence}{67}{section*.146}%
+\contentsline {subsection}{Fabrication of Jammed Microreinforced Elastomers (JMRE) and Controls}{68}{section*.148}%
+\contentsline {subsubsection}{UV-Curing and Specimen Molding}{69}{section*.150}%
+\contentsline {subsubsection}{Thermal Treatment and Latex Coalescence}{69}{section*.151}%
+\contentsline {subsubsection}{Preparation of Control Samples}{69}{section*.152}%
+\contentsline {subsection}{Dip-Coating Fabrication and Pneumatic Inflation}{70}{section*.153}%
+\contentsline {subsection}{DLP 3D Printing}{70}{section*.154}%
+\contentsline {subsection}{High Volume--Low Pressure Spray-Coating and Hydrophobicity Demonstration}{71}{section*.155}%
+\contentsline {section}{\numberline {3.5}Material Characterizations}{72}{section.3.5}%
+\contentsline {subsection}{Particle Size and Zeta Potential}{72}{section*.156}%
+\contentsline {subsection}{(Photo)rheology Characterizations}{72}{section*.157}%
+\contentsline {subsubsection}{Shear Viscosity}{73}{section*.158}%
+\contentsline {subsubsection}{In-Situ Photorheology}{73}{section*.159}%
+\contentsline {subsection}{Morphological Characterization (SEM)}{74}{section*.161}%
+\contentsline {section}{\numberline {3.6}Mechanical Characterizations}{74}{section.3.6}%
+\contentsline {subsection}{Uniaxial Tension Test}{75}{section*.163}%
+\contentsline {subsection}{Cyclic and Hysteresis Tests}{75}{section*.164}%
+\contentsline {subsection}{Fracture Energy}{76}{section*.165}%
+\contentsline {subsection}{Fractocohesive Lengths}{76}{section*.166}%
+\contentsline {subsection}{Puncture Tests}{76}{section*.167}%
+\contentsline {subsection}{Compression of 3D-Printed Scaffolds}{77}{section*.168}%
+\contentsline {subsection}{Measurement of Curing Depth}{77}{section*.169}%
+\contentsline {subsection}{Resolution and Geometric Fidelity Characterization}{78}{section*.170}%
+\contentsline {subsection}{Gel Permeation Chromatography (GPC)}{78}{section*.171}%
+\contentsline {chapter}{Colophon}{80}{chapter*.174}%
+\contentsline {chapter}{References}{81}{section*.177}%

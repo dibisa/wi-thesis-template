@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.26)  5 FEB 2026 19:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.26)  5 FEB 2026 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1478,21 +1478,15 @@ Package acronym Info: Label `acro:TSC' newly defined as it shall be overridden
 although it is yet undefined on input line 57.
 Package acronym Info: Label `acro:CoA' newly defined as it shall be overridden
 although it is yet undefined on input line 58.
-
-Overfull \hbox (5.48288pt too wide) in paragraph at lines 69--72
-\LY1/qpl/m/n/12 (-20) to-tal solids, co-ag-u-lated with 2 wt% acetic acid un-de
-r stir-ring, washed/rolled,
- []
-
-[54]
+ [54]
 Package acronym Info: Label `acro:DLS' newly defined as it shall be overridden
 although it is yet undefined on input line 73.
 Package acronym Info: Label `acro:PDI' newly defined as it shall be overridden
 although it is yet undefined on input line 73.
 
-Overfull \hbox (21.77147pt too wide) in paragraph at lines 73--75
+Overfull \hbox (6.68869pt too wide) in paragraph at lines 73--75
 []\LY1/qpl/m/n/12 (-20) Particle-level sta-bil-ity was checked by [][][]Dynamic
- Light Scat-ter-ing ([])[]/zeta
+ Light Scat-ter-ing ([])[]/$\U/zeur/m/n/12 ^^P$
  []
 
 Package acronym Info: Label `acro:TMS' newly defined as it shall be overridden
@@ -1503,128 +1497,102 @@ Overfull \hbox (5.13492pt too wide) in paragraph at lines 80--83
  chlo-ro-form (CDCl$[]$,
  []
 
-[55]
-Package acronym Info: Label `acro:TMPTA' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 88.
-Package acronym Info: Label `acro:TPO' newly defined as it shall be overridden
-although it is yet undefined on input line 88.
-Package acronym Info: Label `acro:HDDA' newly defined as it shall be overridden
 
-although it is yet undefined on input line 90.
-
-Overfull \hbox (50.3262pt too wide) in paragraph at lines 88--93
-\LY1/qpl/m/n/12 (-20) Trimethylolpropane Tri-acry-late ([])[] (tech-ni-cal grad
-e, 246808), phenylbis(2,4,6-
+Overfull \hbox (1.66652pt too wide) in paragraph at lines 80--83
+\LY1/qpl/m/n/12 (-20) CAS: 865-49-6, 99.8 atom% deuter-a-tion, con-tain-ing 0.0
+3% [][][]Tetramethylsilane
  []
 
-
-Overfull \hbox (24.07936pt too wide) in paragraph at lines 88--93
-\LY1/qpl/m/n/12 (-20) acry-late, 024572A), Ebe-cryl IBOA (isobornyl acry-late m
-onomer, 024944B01Z01),
- []
-
-[56] [57]
-Overfull \hbox (7.48965pt too wide) in paragraph at lines 135--137
+[55] [56]
+Overfull \hbox (7.48965pt too wide) in paragraph at lines 123--125
 \LY1/qpl/m/n/12 (-20) and the par-ti-cle phase is al-lowed to re-dis-tribute vi
 a a concentration-transport
  []
 
-
-Overfull \hbox (24.17848pt too wide) in paragraph at lines 142--143
+[57]
+Overfull \hbox (24.17848pt too wide) in paragraph at lines 130--131
 \LY1/qpl/m/n/12 (-20) To in-ter-pret viscosity--shear rate data across vol-ume 
 frac-tion $\U/zeur/m/n/12 ^^^$\LY1/qpl/m/n/12 (-20) , a microstructure-
  []
 
-[58] [59] [60] [61] [62] [63] [64] [65] [66]
+[58] [59] [60] [61] [62]
 Package acronym Info: Label `acro:HSQC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 328.
+although it is yet undefined on input line 233.
 
-Overfull \hbox (20.51987pt too wide) in paragraph at lines 328--329
+Overfull \hbox (20.51987pt too wide) in paragraph at lines 233--234
 []$[]$\LY1/qpl/m/n/12 (-20) H--$[]$C [][][]Heteronuclear Sin-gle Quan-tum Co-he
 r-ence ([])[] (multiplicity-
  []
 
 Package acronym Info: Label `acro:HMBC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 329.
+although it is yet undefined on input line 234.
 Package acronym Info: Label `acro:COSY' newly defined as it shall be overridden
 
-although it is yet undefined on input line 330.
-[67]
+although it is yet undefined on input line 235.
 Package acronym Info: Label `acro:DOSY' newly defined as it shall be overridden
 
-although it is yet undefined on input line 347.
- [68]
+although it is yet undefined on input line 252.
+[63]
 Package acronym Info: Label `acro:CPMG' newly defined as it shall be overridden
 
-although it is yet undefined on input line 376.
- [69]
+although it is yet undefined on input line 282.
+ [64]
 Package acronym Info: Label `acro:SDS' newly defined as it shall be overridden
-although it is yet undefined on input line 409.
+although it is yet undefined on input line 318.
+Package acronym Info: Label `acro:HDDA' newly defined as it shall be overridden
+
+although it is yet undefined on input line 319.
+Package acronym Info: Label `acro:TPO' newly defined as it shall be overridden
+although it is yet undefined on input line 320.
+ [65]
+Package acronym Info: Label `acro:TMPTA' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 329.
 Package acronym Info: Label `acro:HLB' newly defined as it shall be overridden
-although it is yet undefined on input line 420.
-
-Overfull \hbox (7.13211pt too wide) in paragraph at lines 419--423
-\LY1/qpl/m/n/12 (-20) mented with 1.0 wt% pho-toini-tia-tor ([][]-L) and 0.75 w
-t% low-[][][]Hydrophilic-
- []
-
-
-Overfull \hbox (4.31818pt too wide) in paragraph at lines 419--423
-\LY1/qpl/m/n/12 (-20) Lipophilic Bal-ance ([])[] sur-fac-tant (Span 80). The aq
-ue-ous phase (40 wt%
- []
-
-[70]
-Package acronym Info: Label `acro:PRE' newly defined as it shall be overridden
-although it is yet undefined on input line 433.
-Package acronym Info: Label `acro:DOE' newly defined as it shall be overridden
-although it is yet undefined on input line 435.
- [71]
-Package acronym Info: Label `acro:ASTM' newly defined as it shall be overridden
-
-although it is yet undefined on input line 448.
- [72]
+although it is yet undefined on input line 329.
+ [66]
 Package acronym Info: Label `acro:DEPR' newly defined as it shall be overridden
 
-although it is yet undefined on input line 465.
+although it is yet undefined on input line 342.
+Package acronym Info: Label `acro:PRE' newly defined as it shall be overridden
+although it is yet undefined on input line 342.
+Package acronym Info: Label `acro:DOE' newly defined as it shall be overridden
+although it is yet undefined on input line 344.
+Package acronym Info: Label `acro:ASTM' newly defined as it shall be overridden
+
+although it is yet undefined on input line 357.
+ [67]
 Package acronym Info: Label `acro:JMRE' newly defined as it shall be overridden
 
-although it is yet undefined on input line 465.
- [73]
-Overfull \hbox (1.39919pt too wide) in paragraph at lines 473--474
-[]\LY1/qpl/b/n/12 (-20) Preparation of con-trol sam-ples\LY1/qpl/m/n/12 (-20) :
- Con-trol sam-ples of pure porous
- []
-
-[74] [75] [76]
+although it is yet undefined on input line 375.
+ [68] [69] [70] [71] [72]
 Package acronym Info: Label `acro:LVR' newly defined as it shall be overridden
-although it is yet undefined on input line 546.
- [77]
+although it is yet undefined on input line 481.
 Package acronym Info: Label `acro:SEM' newly defined as it shall be overridden
-although it is yet undefined on input line 553.
- [78] [79] [80] [81]
+although it is yet undefined on input line 488.
+ [73] [74] [75] [76] [77]
 Package acronym Info: Label `acro:THF' newly defined as it shall be overridden
-although it is yet undefined on input line 673.
- [82]) [83]
-pdfTeX warning (ext4): destination with the same identifier (name{page.83}) has
+although it is yet undefined on input line 613.
+)
+[78] [79]
+pdfTeX warning (ext4): destination with the same identifier (name{page.79}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.69 \begin{colophon}
-                      [83
+                      [79
 
 
-] (backmatter/colophon.tex) [84
+] (backmatter/colophon.tex) [80
 
 ] (dissertation.bbl
 bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 15.
 
-) [85
+) [81
 
 ]
 \tf@toc=\write6
@@ -1647,16 +1615,16 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 41985EE60D7CB7B7B3ABFCCD4ED5FF50;6548.
+(rerunfilecheck)             Checksum: DF70FA79FEF5136DD977A29D43A4F9CE;6548.
  ) 
 Here is how much of TeX's memory you used:
- 20890 strings out of 467871
- 325125 string characters out of 5418376
- 803503 words of memory out of 5000000
- 48761 multiletter control sequences out of 15000+600000
- 686165 words of font info for 205 fonts, out of 8000000 for 9000
+ 20846 strings out of 467871
+ 324559 string characters out of 5418376
+ 802976 words of memory out of 5000000
+ 48750 multiletter control sequences out of 15000+600000
+ 685673 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,12n,93p,1111b,663s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,12n,93p,1011b,663s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmex10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Users/dibis/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1674,9 +1642,9 @@ nts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/dibis/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/dibis/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/dibis/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on dissertation.pdf (108 pages, 688620 bytes).
+Output written on dissertation.pdf (104 pages, 678382 bytes).
 PDF statistics:
- 1555 PDF objects out of 1728 (max. 8388607)
- 459 named destinations out of 1000 (max. 500000)
+ 1540 PDF objects out of 1728 (max. 8388607)
+ 434 named destinations out of 1000 (max. 500000)
  33545 words of extra memory for PDF output out of 35830 (max. 10000000)
 
