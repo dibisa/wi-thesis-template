@@ -94,4 +94,3 @@
 \contentsline {subsection}{Resolution and Geometric Fidelity Characterization}{78}{section*.170}%
 \contentsline {subsection}{Gel Permeation Chromatography (GPC)}{78}{section*.171}%
 \contentsline {chapter}{Colophon}{80}{chapter*.174}%
-\contentsline {chapter}{References}{81}{section*.177}%
