@@ -1,34 +1,53 @@
 % nomenclature.tex -- List of Symbols and Nomenclature
 %
 % Organized for Natural Rubber Latex rheology, colloidal science, and NMR spectroscopy
+% Following UW-Madison thesis formatting guidelines
 
 \section*{Greek Letters}
 \begin{tabular}{@{}l @{\hspace{2em}} p{10cm} @{\hspace{2em}} l@{}}
 \toprule
 \textbf{Symbol} & \textbf{Description} & \textbf{Units} \\
 \midrule
+$\alpha$ & Mode-coupling viscosity exponent & -- \\
+$\beta$ & Hydrodynamic viscosity exponent & -- \\
+$\gamma$ & Magnetic field gradient strength (NMR) & T/m \\
 $\eta$ & Dynamic viscosity & Pa$\cdot$s \\
 $\eta_0$ & Zero-shear viscosity & Pa$\cdot$s \\
 $\eta_\infty$ & Infinite-shear viscosity & Pa$\cdot$s \\
-$\eta_r$ & Relative viscosity ($\eta/\eta_m$) & -- \\
-$\eta_m$ & Medium (solvent) viscosity & Pa$\cdot$s \\
+$\eta_r$ & Relative viscosity ($\eta/\eta_s$) & -- \\
+$\eta_s$ & Solvent (medium) viscosity & Pa$\cdot$s \\
+$\eta_p$ & Plastic viscosity (Bingham model) & Pa$\cdot$s \\
 $\dot{\gamma}$ & Shear rate & s$^{-1}$ \\
 $\dot{\gamma}_c$ & Critical shear rate & s$^{-1}$ \\
+$\kappa$ & Inverse Debye length & m$^{-1}$ \\
+$\lambda$ & Relaxation time (Cross/Carreau model) & s \\
+$\lambda_D$ & Debye length ($1/\kappa$) & nm \\
+$\mu$ & Optical attenuation coefficient & m$^{-1}$ \\
+$\rho$ & Density & kg/m$^3$ \\
+$\rho_p$ & Particle density & kg/m$^3$ \\
+$\rho_m$ & Medium (fluid) density & kg/m$^3$ \\
+$\sigma$ & Stress; surface charge density & Pa; C/m$^2$ \\
+$\sigma_T$ & Thermal stress scale ($k_B T/a^3$) & Pa \\
+$\sigma^*$ & Dimensionless stress ($\sigma/\sigma_T$) & -- \\
 $\tau$ & Shear stress & Pa \\
 $\tau_y$ & Yield stress & Pa \\
-$\sigma$ & Stress & Pa \\
+$\tau_B$ & Brownian relaxation time ($a^2/D_0$) & s \\
 $\phi$ & Volume fraction & -- \\
-$\phi_m$ & Maximum packing fraction & -- \\
 $\phi_c$ & Critical volume fraction & -- \\
+$\phi_g$ & Glass transition volume fraction & -- \\
+$\phi_m$ & Maximum packing fraction & -- \\
+$\phi_{\text{eff}}$ & Effective volume fraction & -- \\
+$\psi_0$ & Surface potential & mV \\
 $\omega$ & Angular frequency & rad/s \\
-$\delta$ & Phase angle; chemical shift (NMR) & $^\circ$; ppm \\
-$\lambda$ & Relaxation time & s \\
 $\zeta$ & Zeta potential & mV \\
-$\kappa^{-1}$ & Debye length & nm \\
-$\Psi_0$ & Surface potential & mV \\
+$\delta$ & Phase angle; chemical shift (NMR); steric layer thickness & $^\circ$; ppm; nm \\
+$\Delta$ & Diffusion time (NMR); refractive index contrast & ms; -- \\
 $\varepsilon$ & Dielectric permittivity; strain & F/m; -- \\
-$\rho$ & Density & kg/m$^3$ \\
-$\Delta$ & Diffusion time (NMR) & ms \\
+$\varepsilon_0$ & Vacuum permittivity ($8.85 \times 10^{-12}$) & F/m \\
+$\varepsilon_m$ & Medium dielectric constant & -- \\
+$\varepsilon_c$ & Critical strain & -- \\
+$\Pi$ & Osmotic pressure & Pa \\
+$\Gamma$ & Fracture energy & J/m$^2$ \\
 \bottomrule
 \end{tabular}
 
@@ -39,33 +58,63 @@ $\Delta$ & Diffusion time (NMR) & ms \\
 \toprule
 \textbf{Symbol} & \textbf{Description} & \textbf{Units} \\
 \midrule
-$A_H$ & Hamaker constant & J \\
+$a$ & Particle radius; Cross model ratio ($k_d/k_r$) & nm; -- \\
+$A$ & Hamaker constant & J \\
+$A_{131}$ & Hamaker constant for particles (1) across medium (3) & J \\
 $c$ & Concentration & mol/L; wt\% \\
-$C$ & Cross model time constant & s \\
+$c_d$ & Depletant concentration & mol/L \\
+$C$ & Cross model time constant; offset term & s; -- \\
+$d$ & Particle diameter; number of dimensions & nm; $\mu$m; -- \\
 $D$ & Diffusion coefficient & m$^2$/s \\
-$d$ & Particle diameter & nm; $\mu$m \\
+$D_0$ & Stokes--Einstein diffusivity & m$^2$/s \\
+$e$ & Elementary charge ($1.60 \times 10^{-19}$) & C \\
 $E$ & Young's modulus & Pa \\
 $E_a$ & Activation energy & kJ/mol \\
+$g$ & Gravitational acceleration ($9.81$); gradient amplitude (NMR) & m/s$^2$; T/m \\
 $G'$ & Storage modulus & Pa \\
 $G''$ & Loss modulus & Pa \\
 $G^*$ & Complex modulus & Pa \\
-$h$ & Interparticle separation distance & nm \\
-$I$ & Light intensity; NMR signal intensity & W/m$^2$; a.u. \\
+$h$ & Interparticle separation distance (surface-to-surface) & nm \\
+$I$ & Light intensity; NMR signal intensity; ionic strength; isocyanate index & W/m$^2$; a.u.; mol/L; -- \\
 $k$ & Rate constant & s$^{-1}$ \\
 $k_B$ & Boltzmann constant ($1.38 \times 10^{-23}$) & J/K \\
-$K$ & Consistency index (power law) & Pa$\cdot$s$^n$ \\
-$m$ & Cross model rate exponent & -- \\
+$k_d$ & Breakage/degradation rate constant (linkages) & s$^{-1}$ \\
+$k_r$ & Reformation rate constant (linkages) & s$^{-1}$ \\
+$K$ & Consistency index (Herschel--Bulkley) & Pa$\cdot$s$^n$ \\
+$l_f$ & Fractocohesive length ($\Gamma/W_f$) & m \\
+$l_g$ & Gravitational length ($k_B T/\Delta\rho V g$) & m \\
+$L$ & Steric layer thickness; sample length & nm; mm \\
+$L_0$ & Initial gauge/sample length & mm \\
+$m$ & Cross model rate exponent; shear-sensitivity exponent & -- \\
+$M$ & Torque; magnetization & N$\cdot$m; a.u. \\
+$M_0$ & Equilibrium magnetization & a.u. \\
+$M_n$ & Number-average molecular weight & g/mol \\
 $M_w$ & Weight-average molecular weight & g/mol \\
-$n$ & Flow behavior index (power law) & -- \\
-$p$ & Intrinsic viscosity exponent & -- \\
-$r$ & Particle radius & nm; $\mu$m \\
+$n$ & Flow behavior index (power law); bulk ion concentration & --; m$^{-3}$ \\
+$n_\infty$ & Bulk number concentration of ions & m$^{-3}$ \\
+$N$ & Linkage density (interparticle) & mol/m$^3$ \\
+$N_0$ & Initial/maximum linkage density & mol/m$^3$ \\
+$N_A$ & Avogadro's number ($6.02 \times 10^{23}$) & mol$^{-1}$ \\
+$r$ & Radial distance; particle radius & m; nm \\
 $R$ & Universal gas constant (8.314) & J/(mol$\cdot$K) \\
-$T$ & Temperature & K; $^\circ$C \\
+$R_d$ & Depletant radius & nm \\
+$S$ & Scattering length parameter; entropy & m; J/K \\
 $t$ & Time & s \\
+$t_{90}$ & Characteristic vulcanization time & min \\
+$T$ & Temperature & K; $^\circ$C \\
+$T_g$ & Glass transition temperature & $^\circ$C \\
+$U$ & Interaction potential energy & J \\
+$U_g$ & Gravitational potential energy & J \\
+$U_{\text{tot}}$ & Total interaction potential (DLVO) & J \\
+$U_{\text{vdW}}$ & van der Waals attraction potential & J \\
+$U_{\text{EDL}}$ & Electrostatic double layer repulsion potential & J \\
+$U_{\text{steric}}$ & Steric repulsion potential & J \\
+$U_{\text{depl}}$ & Depletion attraction potential & J \\
+$U_{\max}$ & Maximum potential barrier height & J \\
 $V$ & Volume & m$^3$ \\
-$V_A$ & van der Waals attraction potential & J \\
-$V_R$ & Electrostatic repulsion potential & J \\
-$V_T$ & Total interaction potential (DLVO) & J \\
+$v_s$ & Stokes settling speed & m/s \\
+$W_f$ & Fracture energy density & J/m$^3$ \\
+$z$ & Vertical displacement & m \\
 \bottomrule
 \end{tabular}
 
@@ -76,16 +125,16 @@ $V_T$ & Total interaction potential (DLVO) & J \\
 \toprule
 \textbf{Symbol} & \textbf{Description} & \textbf{Units} \\
 \midrule
+$A_1$, $A_2$ & Component amplitudes (T$_2$ relaxation) & a.u. \\
+$b$ & Diffusion weighting factor & s/m$^2$ \\
+$I(g)$ & Signal intensity at gradient $g$ & a.u. \\
+$I_0$ & Initial signal intensity (at $g=0$) & a.u. \\
+$r_h$ & Hydrodynamic radius (Stokes--Einstein) & nm \\
 $S$ & Signal intensity & a.u. \\
 $S_0$ & Initial signal intensity & a.u. \\
 $T_1$ & Spin-lattice (longitudinal) relaxation time & s \\
 $T_2$ & Spin-spin (transverse) relaxation time & s \\
-$b$ & Diffusion weighting factor & s/m$^2$ \\
-$g$ & Magnetic field gradient strength & T/m \\
-$N$ & Linkage density & mol/m$^3$ \\
-$N_0$ & Initial linkage density & mol/m$^3$ \\
-$k_f$ & Formation rate constant (linkages) & s$^{-1}$ \\
-$k_d$ & Degradation rate constant (linkages) & s$^{-1}$ \\
+$T_{2,1}$, $T_{2,2}$ & Component transverse relaxation times & s \\
 \bottomrule
 \end{tabular}
 
@@ -99,9 +148,15 @@ $k_d$ & Degradation rate constant (linkages) & s$^{-1}$ \\
 $0$ & Initial, reference, or zero-shear condition \\
 $\infty$ & Infinite-shear or equilibrium condition \\
 $c$ & Critical condition \\
+eff & Effective value \\
+$g$ & Gravitational; glass transition \\
+H & Hydrodynamic \\
+B & Brownian \\
+int & Interparticle \\
 $m$ & Medium (solvent) or maximum packing \\
+$p$ & Particle; plastic \\
 $r$ & Relative (ratio to solvent property) \\
-$s$ & Solid phase or surface \\
+$s$ & Solvent; solid phase; surface \\
 $w$ & Wall or water \\
 \bottomrule
 \end{tabular}
@@ -113,8 +168,22 @@ $w$ & Wall or water \\
 \toprule
 \textbf{Symbol} & \textbf{Description} & \textbf{Definition} \\
 \midrule
+$\mathrm{Pe}$ & P\'{e}clet number & $\dot{\gamma} \tau_B$ \\
+$\mathrm{Pe}_g$ & Gravitational P\'{e}clet number & $v_s a / D$ \\
 $\mathrm{Re}$ & Reynolds number & $\rho v L / \eta$ \\
 $\mathrm{We}$ & Weissenberg number & $\lambda \dot{\gamma}$ \\
-$\mathrm{De}$ & Deborah number & $\lambda / t_{obs}$ \\
+$\mathrm{De}$ & Deborah number & $\lambda / t_{\text{obs}}$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{1.5em}
+
+\section*{Intrinsic Viscosity and Model Parameters}
+\begin{tabular}{@{}l @{\hspace{2em}} p{10cm} @{\hspace{2em}} l@{}}
+\toprule
+\textbf{Symbol} & \textbf{Description} & \textbf{Value/Units} \\
+\midrule
+$[\eta]$ & Intrinsic viscosity (spheres) & 2.5 \\
+$k_2$ & Second virial coefficient (viscosity) & -- \\
 \bottomrule
 \end{tabular}
