@@ -1,0 +1,31 @@
+# PDFs - hide thesis output
+*.pdf
+
+# Main thesis TeX files (uncomment to hide all .tex)
+# *.tex
+
+# Specific files to hide
+dissertation.tex
+dissertation_new.tex
+dissertation_temp.tex
+chapters/*.tex
+frontmatter/*.tex
+backmatter/*.tex
+includes/*.tex
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.synctex.gz
+
+# Backup files
+*.bak

@@ -54,8 +54,8 @@ By comparing native \ac{NRL} (ammoniated and eco-preserved) against synthetic po
 
 The receipt-stage characterization was used to benchmark incoming natural rubber latex against ISO 2004:2010 and related procedures (e.g., ASTM D1076 for \ac{DRC}).
 The objective is lot-level traceability and verification of baseline quality prior to formulation and rheological testing.
-Key standardized indicators include mechanical stability (\ac{MST}), volatile fatty acid number/index (\ac{VFA}), solids content (\ac{TSC}/\ac{DRC}), and Brookfield viscosity.
-Table~A1 reports measured values (average $\pm$ standard deviation) for the latex lots used in this work, alongside any supplier \ac{CoA} values when available.
+Key standardized indicators include mechanical stability (mechanical stability time (MST)), volatile fatty acid number/index (volatile fatty acid (VFA)), solids content (total solids content (TSC)/\ac{DRC}), and Brookfield viscosity.
+Table~A1 reports measured values (average $\pm$ standard deviation) for the latex lots used in this work, alongside any supplier Certificate of Analysis (CoA) values when available.
 Table~A2 lists the corresponding ISO specification limits by latex type (centrifuged/creamed; HA/LA/XA).
 Together, these tables link experimental rheological findings to standardized quality metrics and clarify preservative- and processing-dependent differences relevant to performance.
 
@@ -63,21 +63,21 @@ Together, these tables link experimental rheological findings to standardized qu
 \subsection{Incoming Verification}
 \label{subsec:incoming-verification}
 
-Upon receipt, each latex batch was independently verified to confirm it matched the supplier's \ac{CoA} and met baseline quality requirements.
+Upon receipt, each latex batch was independently verified to confirm it matched the supplier's Certificate of Analysis (CoA) and met baseline quality requirements.
 All results were recorded on an Incoming Verification Sheet linked to supplier, lot/batch code, ship/storage conditions, and the intended use condition; batches failing criteria were quarantined or rejected.
 
 \ac{DRC} was measured by ASTM D1076: ${\sim}10$~g latex was diluted to ${\sim}25$~wt\% total solids, coagulated with 2~wt\% acetic acid under stirring, washed/rolled, then dried at 70~°C (or 55~°C if oxidation was observed) to constant mass.
 Batches were accepted only when measured \ac{DRC} agreed with the supplier value within $\pm 1$~wt\% (absolute); out-of-spec results were repeated once, and persistent deviation triggered quarantine/rejection.
 pH and conductivity were measured at 23~°C using a calibrated pH electrode (ASTM E70 practice) and a conductivity probe, respectively, and recorded without adjustment during verification.
 
-Particle-level stability was checked by \ac{DLS}/zeta potential using a 1:100--1:1000 dilution in a defined ionic medium (10~mM electrolyte) to reduce double-layer artifacts and multiple scattering; Z-average diameter, \ac{PDI}, and zeta potential were reported with dilution factor and diluent composition.
+Particle-level stability was checked by \ac{DLS}/zeta potential using a 1:100--1:1000 dilution in a defined ionic medium (10~mM electrolyte) to reduce double-layer artifacts and multiple scattering; Z-average diameter, polydispersity index (PDI), and zeta potential were reported with dilution factor and diluent composition.
 Additional receipt screening included appearance (color, odor, phase separation) and visible coagulum assessed by sieving through a 100~$\mu$m mesh; Brookfield viscosity was used as an optional sanity check against internal/supplier baselines, and an aerobic plate count was performed when bioburden information was required (otherwise recorded as ``not evaluated'').
 
 
 \subsection{Spectroscopic and Analytical Solvents}
 \label{subsec:solvents}
 
-Deuterium oxide (D$_2$O, CAS: 7789-20-0) and deuterated chloroform (CDCl$_3$, CAS: 865-49-6, 99.8 atom\% deuteration, containing 0.03\% tetramethylsilane [\ac{TMS}] as internal standard) were purchased from Merck (Sigma-Aldrich).
+Deuterium oxide (D$_2$O, CAS: 7789-20-0) and deuterated chloroform (CDCl$_3$, CAS: 865-49-6, 99.8 atom\% deuteration, containing 0.03\% tetramethylsilane [tetramethylsilane (TMS)] as internal standard) were purchased from Merck (Sigma-Aldrich).
 Both solvents were stored over 4~\AA\ molecular sieves to maintain isotopic purity and prevent isotopic exchange with atmospheric moisture.
 These deuterated solvents are essential for $^1$H and $^{13}$C NMR spectroscopy, enabling direct observation of polymer chain dynamics, protein interactions, and any preservation-dependent chemical shifts or relaxation behavior that would remain invisible in conventional hydrogenated solvents.
 
@@ -108,7 +108,7 @@ This section details the rheological protocols; the colloidal phenomena being pr
 Rheology was performed on latex suspensions prepared over a solids volume-fraction range of $\phi = 0.2$--$0.6$ to isolate the effect of concentration on flow and viscoelastic response.
 For the ammonia-free latex systems, the stock latex at the highest concentration was diluted to target $\phi$ using the matching latex serum to preserve the native ionic environment and minimize artifacts in colloidal interactions during dilution.
 For ammonia-preserved latex, dilution was performed using deionized water rather than ammonia serum due to handling hazards; pH and conductivity were recorded for each diluted sample to document any shift in ionic strength introduced by this approach.
-Target $\phi$ values were calculated from measured \ac{DRC}/\ac{TSC} and the known mass fractions used in each dilution.
+Target $\phi$ values were calculated from measured \ac{DRC}/total solids content (TSC) and the known mass fractions used in each dilution.
 
 
 \subsubsection{Rotational Rheometry (Parallel Plates)}
@@ -297,7 +297,7 @@ All NMR experiments were performed at 303~K on two solution-state instruments:
     \item a Bruker Nyx / Bruker NEO 500~MHz fitted with a Prodigy-BBO probe (Z130036\_0001; CPP BBO 500S2BB-H\&F-D052LT)
 \end{enumerate}
 
-Chemical shifts were internally referenced using \ac{TMS} ($\delta_H = 0$~ppm), CDCl$_3$ ($\delta_H = 7.26$~ppm), or D$_2$O/HDO ($\delta_H = 4.79$~ppm), selected based on the solvent system used for each measurement.
+Chemical shifts were internally referenced using tetramethylsilane (TMS) ($\delta_H = 0$~ppm), CDCl$_3$ ($\delta_H = 7.26$~ppm), or D$_2$O/HDO ($\delta_H = 4.79$~ppm), selected based on the solvent system used for each measurement.
 
 
 \subsection{Sample Preparation (Solution-State NMR)}
@@ -325,9 +325,9 @@ The following Bruker pulse programs were used:
 \begin{itemize}
     \item $^1$H 1D: zg30 (NS = 8)
     \item $^{13}$C 1D: zgpg30 (NS = 6400)
-    \item $^1$H--$^{13}$C \ac{HSQC} (multiplicity-edited): hsqcedetgpsisp2p.3 (NS = 8)
-    \item \ac{HMBC}: hmbcgpndqf (NS = 8)
-    \item $^1$H--$^1$H \ac{COSY}: cosygpprqf.uw (NS = 64)
+    \item $^1$H--$^{13}$C Heteronuclear Single Quantum Coherence (HSQC) (multiplicity-edited): hsqcedetgpsisp2p.3 (NS = 8)
+    \item Heteronuclear Multiple Bond Correlation (HMBC): hmbcgpndqf (NS = 8)
+    \item $^1$H--$^1$H Correlation Spectroscopy (COSY): cosygpprqf.uw (NS = 64)
     \item $^{31}$P 1D: zgig30 (NS = 256)
     \item Heteronuclear HMBC: HMBC\_Hx.uw (NS = 2)
     \item Multiplicity-edited HSQC (alt): HSQCetfd.uw (NS = 2)
@@ -344,7 +344,7 @@ Peak picking, integration ranges, coupling extraction, and cross-peak assignment
 \subsection{Diffusion-Ordered Spectroscopy (DOSY)}
 \label{subsec:dosy}
 
-\ac{DOSY} experiments used the ledbpgp2s sequence with: NS = 16, receiver gain = 3.5, relaxation delay = 2~s, pulse width = 7.07~$\mu$s, and acquisition time = 2.7739~s.
+Diffusion-Ordered Spectroscopy (DOSY) experiments used the ledbpgp2s sequence with: NS = 16, receiver gain = 3.5, relaxation delay = 2~s, pulse width = 7.07~$\mu$s, and acquisition time = 2.7739~s.
 DOSY processing was performed in MestReNova using the Bayesian DOSY Transform.
 Key settings included an exponential decay model where diffusion coefficients $D$ were obtained by fitting the diffusion-dependent signal attenuation to the Stejskal--Tanner relation:
 \begin{equation}
@@ -373,7 +373,7 @@ Autocorrected peak positions were enabled, Repetitions = 1, resolution factor = 
 
 TD-NMR was used to probe relaxation dynamics associated with distinct molecular environments.
 $T_1$ was measured using an inversion recovery sequence (t1ir, NS = 2) over 11 delay points.
-$T_2$ was measured using a \ac{CPMG} sequence with d1 = 4~s, d20 = 0.001~s, L4 = 2, and NS = 8.
+$T_2$ was measured using a Carr-Purcell-Meiboom-Gill (CPMG) sequence with d1 = 4~s, d20 = 0.001~s, L4 = 2, and NS = 8.
 TD-NMR processing followed the same core pipeline as solution-state processing (FT, zero-filling/apodization, phase, and baseline correction).
 Integrals were computed in MestReNova to generate intensity vs. delay-time curves, exported to Origin, normalized, and fit using an exponential recovery model for $T_1$.
 
@@ -388,7 +388,7 @@ $T_1$ relaxation times were extracted by fitting the inversion-recovery signal i
 \end{equation}
 where $M(t)$ is integrated signal intensity at the delay time $t$, $M_0$ is the equilibrium magnetization scale factor, and $C$ is an offset term (used if baseline/inversion imperfections require it).
 
-$T_2$ relaxation was quantified from \ac{CPMG} decay curves by fitting integrated echo amplitudes to a biexponential decay model, representing at least two distinct spin populations/environments:
+$T_2$ relaxation was quantified from Carr-Purcell-Meiboom-Gill (CPMG) decay curves by fitting integrated echo amplitudes to a biexponential decay model, representing at least two distinct spin populations/environments:
 \begin{equation}
     M(t) = A_1 e^{-t/T_{2,1}} + A_2 e^{-t/T_{2,2}} + C
     \label{eq:t2-decay}
@@ -406,7 +406,7 @@ This section details the formulation strategy, the materials and equipment used,
 \subsection{Preparation of the UV-Curable Latex-Scaffold Coalescence}
 \label{subsec:uv-curable-latex}
 
-0.9~wt\% \ac{SDS} was added to 60\% \ac{DRC} ammonia-free \ac{NRL} and mixed for 3~min using a magnetic stir bar in a 100~mL beaker.
+0.9~wt\% sodium dodecyl sulfate (SDS) was added to 60\% \ac{DRC} ammonia-free \ac{NRL} and mixed for 3~min using a magnetic stir bar in a 100~mL beaker.
 Subsequently, approximately 4.44~wt\% \ac{HDDA} was incorporated into the solution under low Kelvin lighting conditions with slow dispersion mixing for 5~min.
 Following this, approximately 4.5~wt\% \ac{TPO}-L photoinitiator was added, and the mixture underwent a slow 1.5-h mixing process to reduce the operational viscosity further since \ac{NRL} is shear thinning.
 The beaker was sealed with Saranwrap to prevent dehydration and excessive air interaction, while an aluminum foil cover was utilized to minimize light exposure.
@@ -432,7 +432,7 @@ Following addition, the emulsion underwent a high-shear polishing step at 1,300-
 
 DEPRs were prepared by blending the O/W \ac{PRE} with \ac{NRL}.
 The \ac{NRL} used was an ammonia-free, high-solid content variety (60~wt\% solids; novel preservative method, patent pending).
-To evaluate the effect of photoresin loading, a \ac{DOE} approach was used, varying the \ac{PRE} content to 16, 25, 32, and 44~wt\% relative to the total dual-emulsion mass, with the balance comprising the \ac{NRL} stock.
+To evaluate the effect of photoresin loading, a design of experiments (DOE) approach was used, varying the \ac{PRE} content to 16, 25, 32, and 44~wt\% relative to the total dual-emulsion mass, with the balance comprising the \ac{NRL} stock.
 Both \ac{HDDA}- and \ac{TMPTA}-based emulsions were evaluated at these distinct loading levels.
 
 To ensure colloidal compatibility, the aqueous phase of the \ac{PRE} was formulated with an acetate buffer (pH 4.66), selected to match the pH stability range of the \ac{NRL}.
@@ -492,7 +492,7 @@ The sample was successfully inflated using compressed air, demonstrating the mat
 \subsection{DLP 3D Printing}
 \label{subsec:dlp-printing}
 
-3D printing was performed on a home-made \ac{DLP} 3D printer.
+3D printing was performed on a home-made digital light processing (DLP) 3D printer.
 A customized resin vat with an oxygen-permeable window made of Teflon AF-2400 (Biogeneral, Inc., USA) was prepared.
 A digital-micromirror-device-based UV projector (DLP4710 1080p, UV-LED; Wintech, USA) with a pixel resolution of 1920 $\times$ 1080 was used as the light source (wavelength: 385~nm).
 The projector light intensity was 7.7~mW~cm$^{-2}$, measured by a handheld optical power meter (PM100D; Thorlabs GmbH, USA).
@@ -543,14 +543,14 @@ For DEPRs, the gap was reduced to 0.2~mm to ensure uniform UV intensity across t
 \begin{enumerate}[label=\Roman*.]
     \item \textbf{Shear viscosity}: The flow behavior of the emulsions was characterized via steady-state shear experiments. Viscosity profiles were obtained by ramping the shear rate from 0.01 to 200~s$^{-1}$ at 25~°C, allowing for the evaluation of shear-thinning behavior and stability under flow.
     
-    \item \textbf{In-situ photorheology}: Real-time photopolymerization kinetics were monitored using the UV-Curing Accessory Kit (TA Instruments), which comprises a quartz lower plate, a liquid-light-guide assembly, and a closed-loop shielding system. UV irradiation was supplied by an OmniCure Series 2000 system (Excelitas Technologies, USA) equipped with a 200~W mercury arc lamp (320--500~nm). The incident intensity at the sample surface was calibrated to 30~mW~cm$^{-2}$. Curing profiles were recorded via oscillatory time sweeps at a fixed frequency of 5~Hz and a strain amplitude of 0.3\%. This strain was confirmed to be within the \ac{LVR} via amplitude sweeps, which exhibited Type 1 behavior (linear response up to critical deformation) consistent with concentrated emulsions. The testing protocol consisted of a 120~s pre-shear equilibration, followed by 30~s of UV irradiation, and a final 400--600~s post-exposure monitoring period to observe the evolution of storage ($G'$) and loss ($G''$) moduli.
+    \item \textbf{In-situ photorheology}: Real-time photopolymerization kinetics were monitored using the UV-Curing Accessory Kit (TA Instruments), which comprises a quartz lower plate, a liquid-light-guide assembly, and a closed-loop shielding system. UV irradiation was supplied by an OmniCure Series 2000 system (Excelitas Technologies, USA) equipped with a 200~W mercury arc lamp (320--500~nm). The incident intensity at the sample surface was calibrated to 30~mW~cm$^{-2}$. Curing profiles were recorded via oscillatory time sweeps at a fixed frequency of 5~Hz and a strain amplitude of 0.3\%. This strain was confirmed to be within the linear viscoelastic region (LVR) via amplitude sweeps, which exhibited Type 1 behavior (linear response up to critical deformation) consistent with concentrated emulsions. The testing protocol consisted of a 120~s pre-shear equilibration, followed by 30~s of UV irradiation, and a final 400--600~s post-exposure monitoring period to observe the evolution of storage ($G'$) and loss ($G''$) moduli.
 \end{enumerate}
 
 
 \subsection{Morphological Characterization (SEM)}
 \label{subsec:sem}
 
-Surface and cross-sectional morphologies were examined using a Gemini \ac{SEM} 450 (Zeiss, Germany).
+Surface and cross-sectional morphologies were examined using a Gemini scanning electron microscopy (SEM) 450 (Zeiss, Germany).
 The microscope was operated at an accelerating voltage of 3.00~kV with a working distance of $\sim$9.2~mm to minimize beam damage and charging on the polymeric samples.
 
 \begin{enumerate}[label=\Roman*.]
@@ -670,12 +670,12 @@ The ratio between the angular size ($\theta$) of the printed part and the CAD de
 \label{subsec:gpc}
 
 The molecular weight distribution of the purified natural rubber latex was characterized using a Viscotek GPCmax system (Malvern Panalytical, UK) equipped with a Model 302-050 tetra-detector array (RI, UV, differential viscometer, and LALS).
-Separation was performed using two mixed-porosity PolyPore columns (5~$\mu$m particle size) in series, maintained at 40~°C with \ac{THF} supplied directly with the instrument to ensure high purity, serving as the mobile phase at a flow rate of 1.00~mL~min$^{-1}$.
+Separation was performed using two mixed-porosity PolyPore columns (5~$\mu$m particle size) in series, maintained at 40~°C with tetrahydrofuran (THF) supplied directly with the instrument to ensure high purity, serving as the mobile phase at a flow rate of 1.00~mL~min$^{-1}$.
 
-Prior to analysis, the dried rubber sample was dissolved in inhibitor-free \ac{THF} under stirring for 40~days to ensure complete dissolution, and the solution was subsequently filtered through a 0.4~$\mu$m PTFE syringe filter.
+Prior to analysis, the dried rubber sample was dissolved in inhibitor-free tetrahydrofuran (THF) under stirring for 40~days to ensure complete dissolution, and the solution was subsequently filtered through a 0.4~$\mu$m PTFE syringe filter.
 Absolute molar masses were calculated via universal calibration (Omnisec software), yielding:
 \begin{itemize}
     \item Number-average molecular weight ($M_n$): $1.02 \times 10^6$~g~mol$^{-1}$
     \item Weight-average molecular weight ($M_w$): $2.13 \times 10^6$~g~mol$^{-1}$
-    \item Polydispersity index (\ac{PDI}): 2.09
+    \item Polydispersity index (polydispersity index (PDI)): 2.09
 \end{itemize}
